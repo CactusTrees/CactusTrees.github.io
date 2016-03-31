@@ -1,0 +1,21 @@
+[
+{"name":"flare.DAG and IP3 signaling.Active PLCG1 hydrolyses PIP2","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.DAG stimulates protein kinase C-delta","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.IP3 binds to the IP3 receptor opening the endoplasmic reticulum Ca2+ channel","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.IP3R tetramer:4xI(145)P3 transports Ca2+ from ER lumen to cytosol","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calcium binds calmodulin","size":100,"imports":["flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.Calmodulin binds CaMK IV"]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.Inhibition of GRK2 by calmodulin","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKC phosphorylates GRK2","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.Cam-PDE 1 activation.cAMP hydrolysis by Cam-PDE 1","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.Cam-PDE 1 activation.Calmodulin activates Cam-PDE 1","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CaMK IV autophosphorylation","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CamKIV enters the nucleus","size":100,"imports":["flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CaMK IV autophosphorylation"]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CaMK IV phosphorylates CREB","size":100,"imports":["flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.Dimerisation of CREB","flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.PKA phosphorylates CREB","flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.Dimerisation of CREB"]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.Dimerisation of CREB","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.Calmodulin binds CaMK IV","size":100,"imports":["flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CaMK IV autophosphorylation","flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CamKIV enters the nucleus"]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.PKA phosphorylates CREB","size":100,"imports":["flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.CaMK IV phosphorylates CREB","flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.CaMK IV-mediated phosphorylation of CREB.Dimerisation of CREB","flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.Dimerisation of CREB"]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.Dimerisation of CREB","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.PKA catalytic subunit translocates to the nucleus","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.PKA activation.Adenylate cyclase produces cAMP","size":100,"imports":[]},
+{"name":"flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.PKA activation.cAMP induces dissociation of inactive PKA tetramers","size":100,"imports":["flare.DAG and IP3 signaling.CaM pathway.Calmodulin induced events.PKA-mediated phosphorylation of CREB.PKA catalytic subunit translocates to the nucleus"]}
+]

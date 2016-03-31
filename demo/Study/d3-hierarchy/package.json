@@ -1,0 +1,61 @@
+{
+  "name": "d3-hierarchy",
+  "version": "0.0.1",
+  "description": "Layout algorithms for visualizing hierarchical data.",
+  "keywords": [
+    "d3",
+    "layout",
+    "tree",
+    "treemap",
+    "hierarchy",
+    "infovis"
+  ],
+  "homepage": "https://github.com/d3/d3-hierarchy",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "http://bost.ocks.org/mike"
+  },
+  "main": "build/hierarchy.cjs",
+  "jsnext:main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3/d3-hierarchy.git"
+  },
+  "scripts": {
+    "pretest": "mkdir -p build && d3-bundler -x -f cjs -o build/hierarchy.cjs.js",
+    "test": "faucet `find test -name '*-test.js'`",
+    "prepublish": "npm run test && d3-bundler -n hierarchy -o build/hierarchy.js && uglifyjs build/hierarchy.js -c -m -o build/hierarchy.min.js && rm -f build/hierarchy.zip && zip -j build/hierarchy.zip -- LICENSE README.md build/hierarchy.js build/hierarchy.min.js"
+  },
+  "devDependencies": {
+    "d3-bundler": "~0.4.0",
+    "faucet": "0.0",
+    "tape": "4",
+    "uglify-js": "2"
+  },
+  "gitHead": "c78ea2bbb333a82c4a86b1e4d910a1139f29fdc7",
+  "bugs": {
+    "url": "https://github.com/d3/d3-hierarchy/issues"
+  },
+  "_id": "d3-hierarchy@0.0.1",
+  "_shasum": "781eed5c1169a26c0946a0fb1aa4ca5a5820a225",
+  "_from": "d3-hierarchy@*",
+  "_npmVersion": "3.3.9",
+  "_nodeVersion": "5.0.0",
+  "_npmUser": {
+    "name": "mbostock",
+    "email": "mbostock@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "mbostock",
+      "email": "mbostock@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "781eed5c1169a26c0946a0fb1aa4ca5a5820a225",
+    "tarball": "http://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-0.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-0.0.1.tgz"
+}

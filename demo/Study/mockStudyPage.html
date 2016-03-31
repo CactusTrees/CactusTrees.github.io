@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" visType="text/css" href="../main.css"></link>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="d3-hierarchy/build/hierarchy.min.js"></script>
+<script src="../myscripts/input.js"></script>
+<script src="../myscripts/util.js"></script>
+<script src="js/circlePacking.js"></script>
+<script src="js/classical.js"></script>
+<script src="js/icicle.js"></script>
+<script src="js/radial.js"></script>
+<script src="js/radialInsideTree.js"></script>
+<script src="js/treeMap.js"></script>
+
+
+<script>
+//------------------------------------------
+// visualizations & datasets
+//------------------------------------------
+var dataPath = '../../data/';
+var datasets = [
+	"0_RAF_Dot.json",
+	"1_Activation of Pro-caspase 8 Pathway.json",
+	"2_ERBB2 Pathway.json",
+	"3_Signaling to GPCR Pathway.json",
+	"flare package.json",
+	"carnivoraWithRelationships.json",
+	"mammalsWithRelationships.json",
+	"1_RAF-Cascade Pathway.json",
+	"54_DAG Pathway.json",
+	"3_NGF Pathway.json"
+];
+
+var visualizations = [
+	'circlePacking',
+	'classical',
+	'icicle',
+	'radial',
+	'radialInsideTree',
+	'treeMap'
+];
+
+//------------------------------------------
+// the render
+//------------------------------------------
+var dataFile, container, visType;
+function renderVis() {
+	if (typeof window[visType] === "function") {
+		container.select('svg').remove(); // clear previous visualization
+		window[visType](dataPath+dataFile, container);	// call function in external file
+	}
+}
+
+//------------------------------------------
+// ... demo ...
+//------------------------------------------
+window.onload = initializeDemo;
+function initializeDemo() {
+	// populate dropdown menus
+	var visOptions = document.getElementById('visOptions');
+	var dataOptions = document.getElementById('dataOptions');
+
+	visualizations.forEach(function(val) {
+		var option = document.createElement('option');
+		option.innerHTML =val;
+		visOptions.appendChild(option);
+	});
+	datasets.forEach(function(val) {
+		var option = document.createElement('option');
+		option.innerHTML = val;
+		dataOptions.appendChild(option);
+	});
+
+	// render upon menu selection
+	visOptions.onchange = renderSelection;
+	dataOptions.onchange = renderSelection;
+	renderSelection();
+
+	function renderSelection() {
+		visType = visOptions.options[visOptions.selectedIndex].value;
+		dataFile = dataOptions.options[dataOptions.selectedIndex].value;
+		renderVis();		
+	}
+}
+
+</script>
+</head>
+<body>
+<select id="visOptions">
+</select>
+
+<select id="dataOptions">
+</select>
+
+<div id='theVis' style="width:500px; height:500px; border:1px solid #ccc;"></div>
+<script>
+	container = d3.select('#theVis');
+	dataFile = datasets[4];
+	visType = visualizations[5];
+//	renderVis();
+</script>

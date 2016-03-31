@@ -1,0 +1,20 @@
+[
+{"name":"flare.MEK activation.Activated RAF1 complex binds MEK","size":100,"imports":[]},
+{"name":"flare.MEK activation.RAF phosphorylates MEK.RAF1 phosphorylates MEK2","size":100,"imports":["flare.MEK activation.Activated RAF1 complex binds MEK","flare.ERK activation.ERK2 activation.MEK2 binds ERK-2"]},
+{"name":"flare.MEK activation.RAF phosphorylates MEK.RAF1 phosphorylates MEK1","size":100,"imports":["flare.MEK activation.Activated RAF1 complex binds MEK","flare.ERK activation.ERK1 activation.MEK1 binds ERK-1"]},
+{"name":"flare.ERK activation.ERK1 activation.Inactivation of MEK1 by p34cdc2","size":100,"imports":[]},
+{"name":"flare.ERK activation.ERK1 activation.MEK1 binds ERK-1","size":100,"imports":["flare.ERK activation.ERK1 activation.MEK1 phosphorylates ERK-1"]},
+{"name":"flare.ERK activation.ERK1 activation.Dissociation of phospho-ERK-1:MEK1","size":100,"imports":["flare.ERK activation.ERK1 activation.MEK1 binds ERK-1","flare.ERK activation.ERK1 activation.Dimerisation of phospho-ERK-1"]},
+{"name":"flare.ERK activation.ERK1 activation.MEK1 phosphorylates ERK-1","size":100,"imports":["flare.ERK activation.ERK1 activation.Dissociation of phospho-ERK-1:MEK1"]},
+{"name":"flare.ERK activation.ERK1 activation.Nuclear translocation of phospho-ERK-1 dimer","size":100,"imports":[]},
+{"name":"flare.ERK activation.ERK1 activation.Dimerisation of phospho-ERK-1","size":100,"imports":["flare.ERK activation.ERK1 activation.Nuclear translocation of phospho-ERK-1 dimer"]},
+{"name":"flare.ERK activation.ERK2 activation.Nuclear translocation of phospho-ERK-2 dimer","size":100,"imports":[]},
+{"name":"flare.ERK activation.ERK2 activation.MEK2 phosphorylates ERK-2","size":100,"imports":["flare.ERK activation.ERK2 activation.Dissociation of phospho-ERK-2:MEK2"]},
+{"name":"flare.ERK activation.ERK2 activation.MEK2 binds ERK-2","size":100,"imports":["flare.ERK activation.ERK2 activation.MEK2 phosphorylates ERK-2"]},
+{"name":"flare.ERK activation.ERK2 activation.Dimerisation of phospho-ERK-2","size":100,"imports":["flare.ERK activation.ERK2 activation.Nuclear translocation of phospho-ERK-2 dimer"]},
+{"name":"flare.ERK activation.ERK2 activation.Dissociation of phospho-ERK-2:MEK2","size":100,"imports":["flare.ERK activation.ERK2 activation.MEK2 binds ERK-2","flare.ERK activation.ERK2 activation.Dimerisation of phospho-ERK-2"]},
+{"name":"flare.RAF activation.Transient dissociation of 14-3-3 upon Ras binding","size":100,"imports":["flare.RAF activation.p-RAF binds 14-3-3 beta/alpha","flare.RAF activation.Stabilisation of RAS:RAF by 14-3-3"]},
+{"name":"flare.RAF activation.p-RAF binds 14-3-3 beta/alpha","size":100,"imports":["flare.RAF activation.Transient dissociation of 14-3-3 upon Ras binding"]},
+{"name":"flare.RAF activation.Stabilisation of RAF by further phosphorylation","size":100,"imports":["flare.MEK activation.Activated RAF1 complex binds MEK"]},
+{"name":"flare.RAF activation.Stabilisation of RAS:RAF by 14-3-3","size":100,"imports":["flare.RAF activation.Stabilisation of RAF by further phosphorylation"]}
+]
