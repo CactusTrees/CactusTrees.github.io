@@ -4,7 +4,7 @@ Here is the user study: http://murray.evl.uic.edu:9999/
 The study results are available at: http://murray.evl.uic.edu:8080/
 
 Please click to watch the overview video.
-[![https://github.com/CactusTrees/CactusTrees.github.io/blob/master/figures/CactusVideo.png)](https://www.cs.uic.edu/~tdang/HCL/Cactus2016.mp4)
+[![ScreenShot](https://github.com/CactusTrees/CactusTrees.github.io/blob/master/figures/CactusVideo.png)](https://www.cs.uic.edu/~tdang/HCL/Cactus2016.mp4)
 
 CactusTree is a novel visualization technique for representing the structure and connectivity in deeply nested trees. CactusTree was inspired by our ongoing work in creating biological pathway visualizations that enable a range of different visual analytics tasks. Although biological pathways can be thought of as interconnected graph structures, domain experts tend to carve out particular subgraphs of pathways in order to limit their complexity and to focus on the components that are relevant to a particular research problem. For the most part, the representations of these pathways are hierarchical structures.
 
