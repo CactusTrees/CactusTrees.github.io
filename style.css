@@ -1,0 +1,96 @@
+
+# Adapted from http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0px; padding: 0px; border: 0px;
+}
+
+html {
+    height: 100%;
+    overflow: auto; 
+}
+
+body {
+    background: #bbb;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; font-size: 18px; 
+    position: fixed;
+    width: 94%; 
+    height: 95%;
+    left: 2.5%;
+    top: 0px;
+    overflow:visible;
+}
+
+nav {
+    background: #bbb;
+    font-size: 16px;  
+    text-align: center;
+}
+
+nav ul ul {
+    display: none;
+    text-align: left
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+
+nav ul {
+    background: #222; 
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    border-radius: 1px;
+}
+    
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+
+    nav ul li {
+        float: left;
+        border: 1px solid;
+    }
+        nav ul li:hover {
+            background: #880;
+            border-radius: 1px;
+            border: 1px solid;
+        }
+            nav ul li:hover a {
+                color: #fff;
+                border-radius: 1px;
+            }
+        
+        nav ul li a {
+            display: block; padding: 5px 30px;
+            color: #fff; text-decoration: none;
+            border-radius: 1px;
+        }
+            
+        
+    nav ul ul {
+        background: #885500; border-radius: 2px; padding: 0;
+        position: absolute; top: 100%;
+    }
+        nav ul ul li {
+            float: none; 
+            border-top: 1px solid #000;
+            border-radius: 1px;
+        }
+            nav ul ul li a {
+                padding: 5px 20px;
+                color: #fff;
+            }   
+                nav ul ul li a:hover {
+                    background: #aaaa00;
+                }
+        
+    nav ul ul ul {
+        position: absolute; left: 100%; top:0;
+    }
+        
+
