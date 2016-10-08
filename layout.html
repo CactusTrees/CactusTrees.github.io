@@ -3,29 +3,31 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>CS CS5331-004 Syllabus</title>
+    <title>CactusTree Layout</title>
   </head>
   <body bgcolor="white" text="black">
-    <font style="font-family:Helvetica;" color="black" size="4">
-    <b>CactusTree</b> is a novel visualization technique for representing the structure and connectivity in deeply nested trees. <b>CactusTree</b> was inspired by our ongoing work in creating biological pathway visualizations that enable a range of different visual analytics tasks. Although biological pathways can be thought of as interconnected graph structures, domain experts tend to carve out particular subgraphs of pathways in order to limit their complexity and to focus on the components that are relevant to a particular research problem. For the most part, the representations of these pathways are hierarchical structures.<br>
+  <div align="left"><font style="font-family:
+        Helvetica,Arial,sans-serif;" color="black" size="4"><b>CactusTree Layout:</b></font></div>
+    <font style="font-family:Helvetica;" color="black" size="3">
+    <li style="margin-left: 30px">
+      <b>CactusTree</b> is a novel visualization technique for representing the structure and connectivity in deeply nested trees. <b>CactusTree</b> was inspired by our ongoing work in creating biological pathway visualizations that enable a range of different visual analytics tasks. Although biological pathways can be thought of as interconnected graph structures, domain experts tend to carve out particular subgraphs of pathways in order to limit their complexity and to focus on the components that are relevant to a particular research problem. For the most part, the representations of these pathways are hierarchical structures.<br></li>
 
-    An important consideration in visualizing biological pathways is clearly showing how particular biological elements influence or are influenced by other elements. That is, it can be necessary to highlight relevant interconnected sub-trees with a particular directionality, while at the same time making sure not to obscure the hierarchical information in the tree. <br>
+    <li style="margin-left: 30px">
+      An important consideration in visualizing biological pathways is clearly showing how particular biological elements influence or are influenced by other elements. That is, it can be necessary to highlight relevant interconnected sub-trees with a particular directionality, while at the same time making sure not to obscure the hierarchical information in the tree. <br></li>
 
-    <b>CactusTree</b> visualization technique is geared specifically towards more effectively representing  overlaid bundles of intersecting links between nodes in the tree. This is a noteworthy approach toward solving the problem of collinearity that was observed in the original paper on hierarchical edge bundling (see Fig. 17 in 
-    <a href="http://www.aviz.fr/wiki/uploads/Teaching2014/bundles_infovis.pdf">Hierarchical Edge Bundling<a> paper). Rather than investigating the bundling techniques themselves, as most existing approaches have attempted, here we have explored the potential of modifying to the underlying tree layout. <br>
-
-This technique supports a range of interactions on this representation, such as collapsing or expanding of node in the hierarchy to simplify or or to fully explore its structure, selecting a connection between two nodes, and highlighting relationships involving an selected item in the hierarchy.
-
+    <li style="margin-left: 30px">
+      <b>CactusTree</b> visualization technique is geared specifically towards more effectively representing  overlaid bundles of intersecting links between nodes in the tree. This is a noteworthy approach toward solving the problem of collinearity that was observed in the original paper on hierarchical edge bundling (see Fig. 17 in 
+    <a href="http://www.aviz.fr/wiki/uploads/Teaching2014/bundles_infovis.pdf">Hierarchical Edge Bundling</a> paper). Rather than investigating the bundling techniques themselves, as most existing approaches have attempted, here we have explored the potential of modifying to the underlying tree layout. <br></li>
     </font>        
     
     <hr style="width: 100%; height: 1px;">
     <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Course Description:</font></div>
+        Helvetica,Arial,sans-serif;" color="black" size="4"><b>Examples:</b></font></div>
 
-    <font style="font-family:Helvetica;" color="black" size="4">
+    <font style="font-family:Helvetica;" color="black" size="3">
       <li style="margin-left: 30px">
-      This course introduces material on designing effective visualizations. This course is going to focus on the basics of visualization, covering principles, methods, and techniques that are foundational to both information and scientific visualization. 
-      </li>
+      The following figure shows CactusTree visualization technique for the <i>Activation of Pro-caspase 8</i> pathway. Blue (leaf) nodes are biochemical reactions within this pathway. Gray nodes are sub-pathways which are stacked directly on the top of parent pathway. We use red links to indicate the causal relationships between nodes (biochemical reactions). Connections of nodes in different sub-trees are wired (bundled) through the center of their closest common ancestor. 
+
       <li style="margin-left: 30px">
       During the course, students will get hands-on experiences on building interactive visualizations for various real-world datasets. Students will be accessed their learnings through three visualization projects.
       </li>
@@ -34,237 +36,12 @@ This technique supports a range of interactions on this representation, such as 
       </li>
     </font>   
         
-    <hr style="width: 100%; height: 1px;">    
-    <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Prerequisites:</font></div>
-
-    <font style="font-family:Helvetica;" color="black" size="4">
-      <li style="margin-left: 30px">
-        Students are expected to have basic programming skills. Completed material in computer programming topics (e.g. CS 2413: Data Structures, CS 3364: Design & Analysis of Algorithms or equivalent) is helpful but not required.
-        </li> 
-      <li style="margin-left: 30px">
-        Students majoring in areas other than Computer Science are also encouraged to enroll. 
-      </li>  
-      <li style="margin-left: 30px">      
-      Please contact the instructor if you are unsure if you satisfy the prerequisites.
-      </li>
-    </font>    
-     
-    <hr style="width: 100%; height: 1px;">    
-    <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Attendance:</font></div>
-     <font style="font-family:Helvetica;" color="black" size="4">
-      Attendance is not mandatory. However, part of your grade is from your in-class participation/contribution. So, you should consider to go the all classes, make comments on other people's work, ask questions, and ask good questions. 
-
-    <hr style="width: 100%; height: 1px;">    
-    <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Class policies:</font></div>
-      <font style="font-family:Helvetica;" color="black" size="4">
-        <li style="margin-left: 30px">
-        No cell phone usage and no eating during class. 
-        </li>
-        <li style="margin-left: 30px">
-        Academic dishonesty, such as cheating or plagiarism, is a serious offense. For the class projects, you are expected to come up with your own design ideas and implement your work. If you are caught cheating, the grade of F will stand as your final grade (see Part II B 2 of the <i>Student Handbook</i>). The instructor may recommend to Student Judicial Programs for more serious/repeated violations. (<i>OP 34.12)</i>
-        </li>
-        <li style="margin-left: 30px">
-        Any student who, because of a disability, may require special arrangements in order to meet
-the course requirements should contact the instructor as soon as possible to make any
-necessary arrangements. (<i>OP 34.22</i>) 
-       </li> 
-       <li style="margin-left: 30px">
-       A student who intends to observe a religious holy day should make that intention known in
-writing to the instructor prior to the absence. (<i>OP 34.19</i>)
-        </li> 
-</font> 
-
-    <hr style="width: 100%; height: 1px;">    
-    <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Evaluation:</font></div>
-        <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="4">The numeric breakdown of your final grade is computed as follows::</font></div>
-              
-    <table style="width: 880px;" border="1" cellpadding="3" cellspacing="0">
-      <tbody>
-        <tr bgcolor="#aaa">
-          <td></td>
-          <td>Percentage</td>
-          <td>What to do</td>
-          <td>Notes</td>   
-        </tr>
-        <tr>
-          <td>Project 1:</td>
-          <td>20%</td>
-          <td>Time series visualization</td>
-          <td>Individual project</td>   
-        </tr>
-        <tr>
-          <td>Project 2:</td>
-          <td>30%</td>
-          <td>Geospatial visualization</td>
-          <td>Group project (teammates are assigned by instructor)</td>   
-        </tr>
-        <tr>
-          <td>Project 3:</td>
-          <td>30%</td>
-          <td>Network visualization</td>
-          <td>Group project (teammates are selected by students)</td>   
-        </tr>
-        <tr>
-          <td>Peer evaluation:</td>
-          <td>10%</td>
-          <td>Feeback from teammates</td>
-          <td>for Project 2 and 3</td>   
-        </tr>
-        <tr>
-          <td>Class Participation:</td>
-          <td>10%</td>
-          <td>Comments/Ask questions</td>
-          <td>if you are a distant student, this 10% will go to your Project 1</td>   
-        </tr>
-      </tbody>
-    </table>   
-           <br> 
-    &nbsp; A = 85 - 100% <br> 
-    &nbsp; B = 70 - 84% <br> 
-    &nbsp; C = 55 - 69% <br> 
-    &nbsp; D = 40 - 54% <br> 
-    &nbsp; F = 0 - 39% <br> 
-
-  
-   <hr style="width: 100%; height: 1px;">    
-    <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Schedule:</font></div>
-         
-    <table style="width: 880px;" border="1" cellpadding="3" cellspacing="0">
-      <tbody>
-        <tr bgcolor="#aaa">
-          <td></td>
-          <td>Topics</td>   
-        </tr>
-        <tr>
-          <td>Week 1: 8/29 - 9/2</td>
-          <td>- Course overview<br>
-              - <font color="#c20">Project 1 </font> is out<br></td>
-        </tr>
-        <tr>
-          <td>Week 2: 9/5 - 9/9</td>
-          <td>- Introduction to Javascript<br>
-        </tr>
-        <tr>
-          <td>Week 3: 9/12 - 9/16</td>
-        <td>- Introduction to D3.js<br>
-        </tr>
-        <tr>
-          <td>Week 4: 9/19 - 9/23</td>
-        <!--  <td>- Introduction to Javascript and D3.js<br>
-              - Might have an invited speaker from the New York Times' <a href="https://twitter.com/nytinteractive">Interactive News Desk<a> (not confirmed)<br>-->
-          <td>- Introduction to Visualization<br>
-          - Information Visualization vs. Visual Analytics</td>
-        </tr>
-         <tr>
-          <td>Week 5: 9/26 - 9/30</td>
-          <td>- Tables and Charts<br>
-              - Scatterplots and Paralell Coordinates<br>
-              </td>
-        </tr>
-         <tr>
-          <td>Week 6: 10/3 - 10/7</td>
-          <td> - Text visualization <br>
-          - <font color="#c20">Project 1 </font> is due at 11:59pm Sunday, 10/2
-        </tr>
-         <tr>
-          <td>Week 7: 10/10 - 10/14</td>
-          <td>- <font color="#c20">Project 1 </font> presentations<br>
-            - <font color="#c20">Project 2 </font> is out => Team assigment </td>
-        </tr>
-        <tr>
-          <td>Week 8: 10/17 - 10/21</td>
-          <td>- Arcs diagrams<br>
-              - Geospatial Visualization<br>
-         </td>
-        </tr>
-        <tr>
-          <td>Week 9: 10/24 - 10/28</td>
-          <td>- Tree layouts <br>
-            - Hierarchical edge bundling
-        </tr>
-        <tr>
-          <td>Week 10: 10/31 - 11/4</td>
-          <td>- <font color="#c20">Project 2 </font> is due at 11:59pm Sunday, 11/6</td>
-        </tr>
-        <tr>
-          <td>Week 11: 11/7 - 11/11</td>
-          <td>- <font color="#c20">Project 2 </font> presentations <br>
-        </tr>
-        <tr>
-          <td>Week 12: 11/14 - 11/18</td>
-          <td>- <font color="#c20">Project 3 </font> is out => Team formation<br>
-          - Network visualization<br>
-        </tr>
-        <tr>
-          <td>Week 13: 11/21 - 11/25</td>
-          <td>
-              - Adjacency matrices<br>
-              - Force-directed layout in D3</td>
-        </tr>
-        <tr>
-          <td>Week 14: 11/28 - 12/02</td>
-          <td>- Dynamic network visualization<br>
-              - Visualizing Uncertainty in networks</td>
-        </tr>
-        <tr>
-          <td>Week 15: 12/05 - 12/09</td>
-          <td>- <font color="#c20">Project 3 </font> is due at 11:59pm Sunday, 12/11 <br>
-        </tr>
-        <tr>
-          <td>Week 16: 12/12 - 12/16</td>
-          <td>- <font color="#c20">Project 3 </font> presentations  <br>
-        </tr>
-      </tbody>
-    </table>  
-
-
- 
-      <hr style="width: 100%; height: 1px;">    
-      <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="5">Textbooks:</font></div>
-
-
-      <table style="width: 85%;" border="0" cellpadding="4" cellspacing="2">
-      <tbody>
-        <tr>
-          <td valign="top"><img src="figures/munzner.png" alt="" width="165" height="200"></td>
-          </td>
-          <td valign="top"><font style="font-family:
-             Helvetica,Arial,sans-serif;" color="black" size="3"> <br>
-             Visualization Analysis and Design<br>
-              <br>
-              by Tamara Munzner<br>
-              <br>
-              CRC Press, 2014<br>
-              ISBN: 978-1466508910<br>
-              $75 hardcover<br>
-            </font></td>
-          <td valign="top"><img src="figures/interactivedatacover.jpg" alt="" width="160" height="200"></td>
-           <td valign="top"><font style="font-family:
-             Helvetica,Arial,sans-serif;" color="black" size="3"> <br>
-             Interactive Data Visualization for the Web<br>
-              <br>
-              by Scott Murray<br>
-              <br>
-              O'Reilly, 2013 <br>
-              ISBNL 978-1449339739<br>
-              available for <a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html">free online</a> <br>
-            </font></td>
-        </tr>
-      </tbody>
-    </table>
-
+    
       
 
       <hr style="width: 100%; height: 1px;">    
       <div align="right"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="2">&copy; Last revised: Sep 6th, 2016  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></div> 
+        Helvetica,Arial,sans-serif;" color="black" size="2">&copy; Last revised: Oct 4th, 2016  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></div> 
      
     </ul>
      
