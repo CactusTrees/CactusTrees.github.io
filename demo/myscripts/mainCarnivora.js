@@ -416,7 +416,6 @@ function updateNodeAndLink() {
 }
 
 
-var countT=0;
 function update() {        
     d3.selectAll(".node1").each(function(d) {
         d.x = (d.treeX ); //*event.alpha;
