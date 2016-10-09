@@ -1,0 +1,2358 @@
+  {
+   "name":"flare",
+   "children": [
+    {
+     "name":"Innate Immune System",
+     "children": [
+      {
+       "name":"C-type lectin receptors (CLRs)",
+       "children": [
+        {
+         "name":"CLEC7A (Dectin-1) signaling",
+         "children": [
+          { "name":"beta-TRCP ubiquitinates IkB-alpha in p-S32,33-IkB-alpha:NF-kB complex", "size":1.7187719},
+          { "name":"TRIKA2 binds K63polyUb-TRAF6 oligomer", "size":1.4309691},
+          { "name":"CLEC7A binds 1,3-beta-D-glucan", "size":1.319508},
+          { "name":"K63polyUb-TRAF6 ubiquitinates TAK1", "size":1.6702777},
+          { "name":"SRC kinase phosphorylates CLEC7A:1,3-beta-D-glucan", "size":1.4309691},
+          { "name":"K63polyUb-TAK1 autophosphorylates", "size":1.5157166},
+          { "name":"K63polyUb-p-3T,1S-TAK1 phosphorylates IKK-beta", "size":1.5157166},
+          { "name":"MALT1 oligomerizes", "size":1.1486983},
+          { "name":"TRAF6 binds MALT1 oligomers", "size":1.1486983},
+          { "name":"TRAF6 oligomerizes", "size":1.1486983},
+          { "name":"TRAF6 oligomer autoubiquitinates", "size":1.4757732},
+          { "name":"Released NF-kB complex is transported to the nucleus", "size":1.319508},
+          { "name":"MALT1 binds BCL10", "size":1.1486983},
+          { "name":"26S proteasome processes K48PolyUb-K21,22-p-S32,36-IkBA:NF-kB complex to form NF-kB complex", "size":1.3797296},
+          { "name":"BCL10 binds CARD9", "size":1.1486983},
+          { "name":"BCL10 oligomerizes", "size":1.1486983},
+          { "name":"PKC-delta phosphorylates CARD9", "size":1.319508},
+          { "name":"Ubiquitination of NEMO by TRAF6", "size":1.5848932},
+          { "name":"CARD9 oligomerizes", "size":1.1486983},
+          { "name":"p-S177,S181-IKKB:IKKA:pUb-NEMO phosphorylates IkB-alpha:NF-kB", "size":1.5157166},
+          { "name":"PKC-delta translocates to plasma membrane", "size":1.319508},
+          { "name":"PKC-delta is activated", "size":1.319508},
+          { "name":"p-Y753,Y759-PLCG2 translocates from cytosol to plasma membrane", "size":1.1486983},
+          { "name":"p-Y753,Y759-PLCG2 hydrolyses PIP2", "size":1.319508},
+          { "name":"SYK binds p-Y15-CLEC7A:1,3-beta-D-glucan", "size":1.4309691},
+          { "name":"1,3-beta-D-glucan:p-Y15-CLEC7A:SYK phosphorylates PLCG", "size":1.319508},
+          {
+           "name":"CLEC7A (Dectin-1) induces NFAT activation",
+           "children": [
+            { "name":"Calcium binds calmodulin", "size":1.319508},
+            { "name":"Calcineurin binds and dephosphorylates NFAT", "size":1.7826024},
+            { "name":"Activation of Calcineurin", "size":1.6952182},
+            { "name":"IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol", "size":1.1486983},
+            { "name":"Translocation of CaN:CaM:NFAT to nucleus", "size":1.7411011},
+            { "name":"IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel", "size":1.245731}
+            ]
+          },
+          {
+           "name":"Dectin-1 mediated noncanonical NF-kB signaling",
+           "children": [
+            { "name":"Activation of NIK", "size":1.1486983},
+            { "name":"p100:RELB binds active NIK:p-IKKA dimer", "size":1.4309691},
+            { "name":"Active NIK phosphorylates IKKA dimer", "size":1.3797296},
+            { "name":"SCF-beta-TRCP binds p-7S-p100 in active NIK:p-S176,180-IKKA dimer:p-7S-p100:RELB", "size":1.6437519},
+            { "name":"Active NIK:p-S176,180-IKKA dimer phosphorylates p100:RELB", "size":1.5157166},
+            { "name":"26S proteasome processes p-7S-p100:RELB to form p52:RELB", "size":1.3797296},
+            { "name":"SCF-beta-TRCP ubiquitinates p-7S-p100:RELB in active NIK:p-176,S180-IKKA dimer:p-7S-p100:SCF-beta-TRCP", "size":1.7623403},
+            { "name":"CCL17 and CCL22 genes are transcribed", "size":0.0},
+            { "name":"p52:RELB translocates from cytosol to nucleus", "size":1.319508}
+            ]
+          },
+          {
+           "name":"CLEC7A/inflammasome pathway",
+           "children": [
+            { "name":"ASC binds Caspase-8 complex", "size":1.5157166},
+            { "name":"Caspase-8 binds MALT", "size":1.4309691},
+            { "name":"IL1B gene is transcribed", "size":0.0},
+            { "name":"Caspase-8 cleaves IL1B precursor", "size":1.245731}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"CD209 (DC-SIGN) signaling",
+         "children": [
+          { "name":"CD209 binds ICAM2", "size":1.319508},
+          { "name":"CD209 binds ManLAM", "size":1.319508},
+          { "name":"p-S276-RELA binds RELB", "size":1.319508},
+          { "name":"CD209 binds ICAM3", "size":1.4309691},
+          { "name":"p300 acetylates RELA subunit", "size":1.5157166},
+          { "name":"CBP and p300 binds NF-kB complex", "size":1.4309691},
+          { "name":"Protein kinase A (PKA) and RPS6KA5 (MSK1) phosphorylates p65 (RELA) subunit", "size":1.4309691},
+          { "name":"SFKs phosphorylates RAF1 on Y340,Y341", "size":1.5157166},
+          { "name":"PAK phosphorylates p21 RAF1 on S338", "size":1.5157166},
+          { "name":"RAF1 binds p21 RAS:GTP", "size":1.4309691},
+          { "name":"CD209 activate GTPase RAS", "size":1.4309691}
+          ]
+        },
+        {
+         "name":"Dectin-2 family",
+         "children": [
+          { "name":"PLCG2 translocates from cytosol to plasma membrane", "size":1.319508},
+          { "name":"SYK autophosphorylates", "size":1.319508},
+          { "name":"CLEC4D binds mycobacterial trehalose-6,6'-dimycolate (TDM)", "size":1.4309691},
+          { "name":"SYK binds to p-Y65,Y76-FCER1G", "size":1.1486983},
+          { "name":"CLEC4A binds HIV and HCV glycoproteins", "size":1.1486983},
+          { "name":"SYK phosphorylates PLCG2 in p-6Y-SYK:p-Y65,Y76-FCER1G:PLCG2", "size":1.4309691},
+          { "name":"CLEC4C binds HIV and HCV glycoproteins", "size":1.319508},
+          { "name":"PLCG1 binds p-6Y-SYK:p-Y65,Y76-FCER1G", "size":1.319508},
+          { "name":"LYN and FYN phosphorylate FCER1G in CLEC6A:FCERG and CLEC4E:FCERG", "size":1.1486983},
+          { "name":"CLEC4E binds alpha-mannan and trehalose-6-6'-dimycolate", "size":1.4309691},
+          { "name":"CLEC6A binds alpha-mannan in fungal cell walls", "size":1.4309691}
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Advanced glycosylation endproduct receptor signaling",
+       "children": [
+        { "name":"AGER-1,2,3 bind AGEs", "size":1.4309691},
+        { "name":"AGER binds ERK1/2", "size":1.319508},
+        { "name":"Advanced glycosylation end product-specific receptor (AGER/RAGE) is a multiligand receptor", "size":1.1486983},
+        { "name":"The TRTK-12 fragment of F-actin capping protein alpha binds the AGER ligand S100B", "size":1.319508}
+        ]
+      },
+      {
+       "name":"DAP12 interactions",
+       "children": [
+        { "name":"Interaction of DAP12 and TREM1", "size":1.319508},
+        { "name":"Interaction of DAP12 and TREM2", "size":1.319508},
+        { "name":"Interaction of DAP12 and SIRP beta", "size":1.319508},
+        { "name":"Dimerization of DAP12", "size":1.1486983},
+        { "name":"Interaction of DAP12 and KIR2DS1", "size":1.4309691},
+        { "name":"Interaction of DAP12 and KIR2DS2", "size":1.5157166},
+        { "name":"Interaction of DAP12 and KIR2DS4", "size":1.319508},
+        { "name":"Interaction of DAP12 and KIR2DS5", "size":1.319508},
+        { "name":"Interaction of DAP12 and KIR3DS1", "size":1.4309691},
+        { "name":"Interaction of DAP12 and CLM7", "size":1.319508},
+        { "name":"Interaction of DAP12 and MDL-1", "size":1.319508},
+        { "name":"DAP12 interacts with NKG2C", "size":1.5848932},
+        { "name":"Interaction of SIGLEC14/15/16 and DAP12", "size":1.319508},
+        { "name":"Interaction of DAP12 and NKG2D", "size":1.319508},
+        { "name":"Interaction of DAP12 and IREM2", "size":1.319508},
+        { "name":"Interaction of DAP12 and NKp44", "size":1.319508},
+        {
+         "name":"DAP12 signaling",
+         "children": [
+          { "name":"PI3K phosphorylates PIP2 to PIP3", "size":1.319508},
+          { "name":"p85 regulatory unit of PI3K binds p-6Y-SYK", "size":1.5848932},
+          { "name":"Recruitment of SYK to p-DAP12", "size":1.4309691},
+          { "name":"Phosphorylation of SYK", "size":1.5157166},
+          { "name":"Phosphorylation of DAP12", "size":1.4309691},
+          { "name":"Recruitment of PLC-gamma to SLP-76 and p-5Y-LAT", "size":1.6952182},
+          { "name":"Recruitment of GADS:SLP-76 to p-5Y-LAT", "size":1.6437519},
+          { "name":"Recruitment of GRB2:SOS to p-5Y-LAT", "size":1.5157166},
+          { "name":"Phosphorylation of LAT by p-SYK", "size":1.319508},
+          { "name":"Phosphorylation and activation of VAV2/VAV3 by SYK", "size":1.8556007},
+          { "name":"Activation of RAC1 by VAV2/3", "size":1.4309691},
+          { "name":"Phosphorylation of SLP-76 by p-SYK", "size":1.7411011},
+          { "name":"Release of p-PLCG1", "size":1.8205643},
+          { "name":"SOS mediated nucleotide exchange of RAS (SHC)", "size":1.4309691},
+          { "name":"Phosphorylation of PLC-gamma by p-BTK/p-SYK", "size":1.8556007},
+          { "name":"Phosphorylation of BTK by p-SYK", "size":1.8556007},
+          { "name":"Recruitment of VAV and BTK to p-SLP-76", "size":1.8205643},
+          {
+           "name":"DAG and IP3 signaling",
+           "children": [
+            { "name":"Active PLCG1 hydrolyses PIP2", "size":1.319508},
+            { "name":"DAG stimulates protein kinase C-delta", "size":1.319508},
+            { "name":"IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol", "size":1.1486983},
+            { "name":"IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel", "size":1.245731},
+            {
+             "name":"CaM pathway",
+             "children": [
+              { "name":"Calcium binds calmodulin", "size":1.319508},
+              {
+               "name":"Calmodulin induced events",
+               "children": [
+                { "name":"Inhibition of GRK2 by calmodulin", "size":1.319508},
+                { "name":"PKC phosphorylates GRK2", "size":1.319508},
+                {
+                 "name":"CaMK IV-mediated phosphorylation of CREB",
+                 "children": [
+                  { "name":"CamKIV enters the nucleus", "size":1.4309691},
+                  { "name":"CaMK IV autophosphorylation", "size":1.5157166},
+                  { "name":"Calmodulin binds CaMK IV", "size":1.4309691},
+                  { "name":"Dimerisation of CREB", "size":1.1486983}
+                  ]
+                },
+                {
+                 "name":"PKA-mediated phosphorylation of CREB",
+                 "children": [
+                  { "name":"Dimerisation of CREB", "size":1.1486983},
+                  { "name":"PKA phosphorylates CREB", "size":1.319508},
+                  { "name":"PKA catalytic subunit translocates to the nucleus", "size":1.1486983},
+                  {
+                   "name":"PKA activation",
+                   "children": [
+                    { "name":"cAMP induces dissociation of inactive PKA tetramers", "size":1.4309691},
+                    { "name":"Adenylate cyclase produces cAMP", "size":1.245731}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"Cam-PDE 1 activation",
+                 "children": [
+                  { "name":"Calmodulin activates Cam-PDE 1", "size":0.0},
+                  { "name":"cAMP hydrolysis by Cam-PDE 1", "size":1.245731}
+                  ]
+                }
+                ]
+              }
+              ]
+            }
+            ]
+          },
+          {
+           "name":"PIP3 activates AKT signaling",
+           "children": [
+            { "name":"PI3K phosphorylates PIP2 to PIP3", "size":1.319508},
+            { "name":"PIP3 recruits AKT to the membrane", "size":1.319508},
+            { "name":"PIP3 recruits PDPK1 to the membrane", "size":1.319508},
+            { "name":"TORC2 (mTOR) phosphorylates AKT at S473", "size":1.4309691},
+            { "name":"AKT binds PDPK1", "size":1.5157166},
+            { "name":"PDPK1 phosphorylates AKT at T308", "size":1.5518456},
+            { "name":"AKT translocates to the nucleus", "size":1.1486983},
+            { "name":"PTEN mRNA translation negatively regulated by microRNAs", "size":1.1486983},
+            { "name":"MIR26A microRNAs bind PTEN mRNA", "size":0.0},
+            { "name":"PDPK1 binds PIP2", "size":1.319508},
+            {
+             "name":"Negative regulation of the PI3K/AKT network",
+             "children": [
+              { "name":"THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation", "size":1.4309691},
+              { "name":"PTEN dephosphorylates PIP3", "size":1.319508},
+              { "name":"PHLPP dephosphorylates S473 in AKT", "size":1.319508}
+              ]
+            },
+            {
+             "name":"AKT phosphorylates targets in the cytosol",
+             "children": [
+              { "name":"AKT phosphorylates GSK3", "size":1.319508},
+              { "name":"AKT phosphorylates caspase-9", "size":1.319508},
+              { "name":"AKT phosphorylates MDM2", "size":1.319508},
+              { "name":"AKT phosphorylates p21Cip1 and p27Kip1", "size":1.319508},
+              { "name":"AKT phosphorylates IKKalpha", "size":1.319508},
+              { "name":"AKT phosphorylates AKT1S1 (PRAS40)", "size":1.319508},
+              { "name":"AKT phosphorylates TSC2, inhibiting it", "size":1.319508},
+              { "name":"AKT phosphorylates BAD", "size":1.319508}
+              ]
+            },
+            {
+             "name":"AKT phosphorylates targets in the nucleus",
+             "children": [
+              { "name":"AKT phosphorylates CREB1", "size":1.319508},
+              { "name":"AKT can phosphorylate RSK", "size":1.319508},
+              { "name":"AKT can phosphorylate forkhead box transcription factors", "size":1.319508},
+              { "name":"AKT can phosphorylate NR4A1 (NUR77)", "size":1.319508}
+              ]
+            }
+            ]
+          },
+          {
+           "name":"RAF/MAP kinase cascade",
+           "children": [
+            {
+             "name":"ERK activation",
+             "children": [
+              {
+               "name":"ERK1 activation",
+               "children": [
+                { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                { "name":"MEK1 binds ERK-1", "size":1.319508}
+                ]
+              },
+              {
+               "name":"ERK2 activation",
+               "children": [
+                { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                { "name":"MEK2 binds ERK-2", "size":1.319508},
+                { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                ]
+              }
+              ]
+            },
+            {
+             "name":"RAF activation",
+             "children": [
+              { "name":"Stabilisation of RAF by further phosphorylation", "size":1.5848932},
+              { "name":"Stabilisation of RAS:RAF by 14-3-3", "size":1.5157166},
+              { "name":"Phosphorylated human RAF1 binds to RAS:GTP complex", "size":1.4309691},
+              { "name":"Transient dissociation of 14-3-3 upon Ras binding", "size":1.5157166},
+              { "name":"p-RAF binds 14-3-3 beta/alpha", "size":1.319508}
+              ]
+            },
+            {
+             "name":"MEK activation",
+             "children": [
+              { "name":"Activated RAF1 complex binds MEK", "size":1.5848932},
+              {
+               "name":"RAF phosphorylates MEK",
+               "children": [
+                { "name":"RAF1 phosphorylates MEK2", "size":1.6437519},
+                { "name":"RAF1 phosphorylates MEK1", "size":1.6437519}
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Defensins",
+       "children": [
+        { "name":"Pre-pro-defensins are cleaved to remove the signal peptide", "size":1.1486983},
+        { "name":"Binding of defensins to lipid II", "size":1.319508},
+        {
+         "name":"Alpha-defensins",
+         "children": [
+          { "name":"HNP1-3 bind gp120", "size":1.319508},
+          { "name":"Pro-HNP1-4 are cleaved to biologically active defensin", "size":1.1486983},
+          { "name":"HNP1-3 bind CD4", "size":1.319508},
+          { "name":"ADP-Ribosylation of HNP-1", "size":1.1486983},
+          { "name":"pro-HD5 is cleaved by trypsin", "size":1.1486983},
+          { "name":"Alpha-defensins form biologically active dimers", "size":1.0},
+          { "name":"Alpha-defensin dimers adsorb onto microbial membrane anionic phospholipids", "size":1.1486983},
+          { "name":"Alpha-defensin dimers multimerize to form a pore complex", "size":1.1486983},
+          { "name":"HNP1-4 are stored in primary neutrophil granules", "size":1.1486983},
+          { "name":"HNP1-4 are released into phagocytic vacuoles", "size":1.1486983},
+          { "name":"pro-defensin alpha 5 is stored in Paneth cell granules", "size":1.1486983},
+          { "name":"pro-defensin alpha 5 is secreted", "size":1.1486983}
+          ]
+        },
+        {
+         "name":"Beta defensins",
+         "children": [
+          { "name":"Beta-defensins bind microbial membranes causing disruption", "size":1.319508},
+          { "name":"Beta-defensins are secreted", "size":1.1486983},
+          { "name":"Beta-defensins 4A and 103 bind CCR2", "size":1.319508},
+          { "name":"Beta-defensins 1, 4A and 103 bind CCR6", "size":1.319508},
+          { "name":"Beta defensin 103 activates TLR1:TLR2", "size":1.4309691}
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Toll-Like Receptors Cascades",
+       "children": [
+        {
+         "name":"Toll Like Receptor 2 (TLR2) Cascade",
+         "children": [
+          {
+           "name":"Toll Like Receptor TLR1:TLR2 Cascade",
+           "children": [
+            { "name":"TLR1:TLR2 is recruited to ligand:CD14", "size":1.4309691},
+            { "name":"TLR1/2 ligand binds to CD14", "size":1.1486983},
+            {
+             "name":"MyD88:Mal cascade initiated on plasma membrane",
+             "children": [
+              { "name":"IRAK4 autophosphorylation in the complex with activated TLR:MyD88:Mal", "size":1.6437519},
+              { "name":"IRAK4 binds to the activated TLR receptor:Mal:MyD88 complex ", "size":1.5848932},
+              { "name":"Dissociation of p-IRAK2:TRAF6 from the activated TLR:oligo-Myd88:Mal:p-IRAK4 complex", "size":1.6952182},
+              { "name":"MAL is phosphorylated by BTK", "size":1.4309691},
+              { "name":"Dissociation of hp-IRAK1:TRAF6 from the activated TLR:oligo-Myd88:Mal:p-IRAK4 complex", "size":1.6952182},
+              { "name":"Activated TLR2/4:MAL interacts with BTK ", "size":1.4309691},
+              { "name":"TRAF6 binds to p-IRAK2 ", "size":1.6952182},
+              { "name":"MyD88 oligomerization within the complex of activated TLR:Mal:MyD88", "size":1.5518456},
+              { "name":"MyD88 forms a complex with MAL:activated TLR2/4", "size":1.5157166},
+              { "name":"TRAF6 binds to hp- IRAK1", "size":1.6952182},
+              { "name":"Multiple IRAK1 autophosphorylation steps", "size":1.6952182},
+              { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to activated TLR:MyD88:Mal", "size":1.6952182},
+              { "name":"Activated TLR2/4 interacts with MAL(TIRAP)", "size":1.319508},
+              { "name":"First phosphorylation of IRAK1 by IRAK4 bound to activated TLR:MyD88:Mal", "size":1.6952182},
+              { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomer:Mal:activated TLR complex", "size":1.6952182},
+              { "name":"TRAF6 binds MEKK1", "size":1.319508},
+              { "name":"IRAK1 or IRAK2 binds to the activated IRAK4 :activated TLR:MyD88:Mal complex", "size":1.6437519},
+              {
+               "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+               "children": [
+                { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK2 mediated activation of TAK1 complex",
+               "children": [
+                { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 ", "size":1.6437519},
+                { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex", "size":1.5848932},
+                { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+                { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2", "size":1.4309691},
+                { "name":"IRAK2 induces TRAF6 oligomerization", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK1 recruits IKK complex",
+               "children": [
+                { "name":"Pellino ubiquitinates hp-IRAK1", "size":1.5848932},
+                { "name":"NEMO subunit of IKK complex binds to activated IRAK1", "size":1.5848932},
+                { "name":"Pellino binds hp-IRAK1:TRAF6", "size":1.4309691},
+                { "name":"IRAK1 phosphorylates Pellino", "size":1.5157166}
+                ]
+              },
+              {
+               "name":"MAP kinase activation in TLR cascade",
+               "children": [
+                {
+                 "name":"ERK activation",
+                 "children": [
+                  {
+                   "name":"ERK1 activation",
+                   "children": [
+                    { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                    { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                    { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                    { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                    { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                    { "name":"MEK1 binds ERK-1", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK2 activation",
+                   "children": [
+                    { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                    { "name":"MEK2 binds ERK-2", "size":1.319508},
+                    { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                    { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                    { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                 "children": [
+                  { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                  { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                  { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"activated TAK1 mediates p38 MAPK activation",
+                 "children": [
+                  { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                  { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                  { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                  { "name":"null", "size":1.4309691},
+                  { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                 "children": [
+                  {
+                   "name":"CREB phosphorylation",
+                   "children": [
+                    { "name":"MSK1 activates ATF1", "size":1.319508},
+                    { "name":"MSK1 activates CREB", "size":1.319508},
+                    { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                    { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"Activation of the AP-1 family of transcription factors",
+                   "children": [
+                    { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                    { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                    { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK/MAPK targets",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                    { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                    { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                    { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                    { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                    {
+                     "name":"ERKs are inactivated",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                }
+                ]
+              }
+              ]
+            }
+            ]
+          },
+          {
+           "name":"Toll Like Receptor TLR6:TLR2 Cascade",
+           "children": [
+            { "name":"TLR6/2 ligand associates with CD14 and CD36 within lipid rafts", "size":1.4309691},
+            { "name":"TLR6:TLR2 is recruited to ligand:CD14:CD36", "size":1.5848932},
+            {
+             "name":"MyD88:Mal cascade initiated on plasma membrane",
+             "children": [
+              { "name":"IRAK4 autophosphorylation in the complex with activated TLR:MyD88:Mal", "size":1.6437519},
+              { "name":"IRAK4 binds to the activated TLR receptor:Mal:MyD88 complex ", "size":1.5848932},
+              { "name":"Dissociation of p-IRAK2:TRAF6 from the activated TLR:oligo-Myd88:Mal:p-IRAK4 complex", "size":1.6952182},
+              { "name":"MAL is phosphorylated by BTK", "size":1.4309691},
+              { "name":"Dissociation of hp-IRAK1:TRAF6 from the activated TLR:oligo-Myd88:Mal:p-IRAK4 complex", "size":1.6952182},
+              { "name":"Activated TLR2/4:MAL interacts with BTK ", "size":1.4309691},
+              { "name":"TRAF6 binds to p-IRAK2 ", "size":1.6952182},
+              { "name":"MyD88 oligomerization within the complex of activated TLR:Mal:MyD88", "size":1.5518456},
+              { "name":"MyD88 forms a complex with MAL:activated TLR2/4", "size":1.5157166},
+              { "name":"TRAF6 binds to hp- IRAK1", "size":1.6952182},
+              { "name":"Multiple IRAK1 autophosphorylation steps", "size":1.6952182},
+              { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to activated TLR:MyD88:Mal", "size":1.6952182},
+              { "name":"Activated TLR2/4 interacts with MAL(TIRAP)", "size":1.319508},
+              { "name":"First phosphorylation of IRAK1 by IRAK4 bound to activated TLR:MyD88:Mal", "size":1.6952182},
+              { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomer:Mal:activated TLR complex", "size":1.6952182},
+              { "name":"TRAF6 binds MEKK1", "size":1.319508},
+              { "name":"IRAK1 or IRAK2 binds to the activated IRAK4 :activated TLR:MyD88:Mal complex", "size":1.6437519},
+              {
+               "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+               "children": [
+                { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK2 mediated activation of TAK1 complex",
+               "children": [
+                { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 ", "size":1.6437519},
+                { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex", "size":1.5848932},
+                { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+                { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2", "size":1.4309691},
+                { "name":"IRAK2 induces TRAF6 oligomerization", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK1 recruits IKK complex",
+               "children": [
+                { "name":"Pellino ubiquitinates hp-IRAK1", "size":1.5848932},
+                { "name":"NEMO subunit of IKK complex binds to activated IRAK1", "size":1.5848932},
+                { "name":"Pellino binds hp-IRAK1:TRAF6", "size":1.4309691},
+                { "name":"IRAK1 phosphorylates Pellino", "size":1.5157166}
+                ]
+              },
+              {
+               "name":"MAP kinase activation in TLR cascade",
+               "children": [
+                {
+                 "name":"ERK activation",
+                 "children": [
+                  {
+                   "name":"ERK1 activation",
+                   "children": [
+                    { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                    { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                    { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                    { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                    { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                    { "name":"MEK1 binds ERK-1", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK2 activation",
+                   "children": [
+                    { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                    { "name":"MEK2 binds ERK-2", "size":1.319508},
+                    { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                    { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                    { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                 "children": [
+                  { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                  { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                  { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"activated TAK1 mediates p38 MAPK activation",
+                 "children": [
+                  { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                  { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                  { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                  { "name":"null", "size":1.4309691},
+                  { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                 "children": [
+                  {
+                   "name":"CREB phosphorylation",
+                   "children": [
+                    { "name":"MSK1 activates ATF1", "size":1.319508},
+                    { "name":"MSK1 activates CREB", "size":1.319508},
+                    { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                    { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"Activation of the AP-1 family of transcription factors",
+                   "children": [
+                    { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                    { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                    { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK/MAPK targets",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                    { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                    { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                    { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                    { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                    {
+                     "name":"ERKs are inactivated",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                }
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Toll Like Receptor 7/8 (TLR7/8) Cascade",
+         "children": [
+          { "name":"Ligand binds to TLR7 or TLR8", "size":0.0},
+          {
+           "name":"MyD88 dependent cascade initiated on endosome",
+           "children": [
+            { "name":"Multiple IRAK1 autophosphorylation steps within the complex pIRAK4:MyD88:activated TLR7/8 or 9", "size":1.5157166},
+            { "name":"MyD88 oligomerization within the complex of activated TLR 7/8 or 9 : MyD88", "size":1.245731},
+            { "name":"TRAF6 binds to hp- IRAK1/or p-IRAK2:p-IRAK4:MyD88:activated TLR7/8 or 9 ", "size":1.5157166},
+            { "name":"MyD88 interacts with the activated TLR receptor 7, 8 or 9 ", "size":1.1486983},
+            { "name":"First phosphorylation of IRAK1 by IRAK4 bound to MyD88:activated TLR 7/8 or 9", "size":1.5157166},
+            { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to MyD88: activated TLR 7/8 or 9", "size":1.5157166},
+            { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomer:activated TLR 7/8 or 9", "size":1.5157166},
+            { "name":"IRAK1/or IRAK2 binds to the activated IRAK4 :MyD88:activated TLR 7/8 or 9.", "size":1.4309691},
+            { "name":"IRAK4 autophosphorylation in the complex with MyD88:activated TLR 7/8 or 9", "size":1.4309691},
+            { "name":"IRAK4 binds to the activated TLR7/8 or 9 receptor:MyD88 complex ", "size":1.319508},
+            {
+             "name":"TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation",
+             "children": [
+              { "name":"TRAF6 binds MEKK1", "size":1.319508},
+              { "name":"Dissociation of hp-IRAK1/or IRAK2:TRAF6-oligomer from the p-IRAK4 :oligo-Myd88:activated TLR7/8 or 9 complex", "size":1.5157166},
+              {
+               "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+               "children": [
+                { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"MAP kinase activation in TLR cascade",
+               "children": [
+                {
+                 "name":"ERK activation",
+                 "children": [
+                  {
+                   "name":"ERK1 activation",
+                   "children": [
+                    { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                    { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                    { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                    { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                    { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                    { "name":"MEK1 binds ERK-1", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK2 activation",
+                   "children": [
+                    { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                    { "name":"MEK2 binds ERK-2", "size":1.319508},
+                    { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                    { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                    { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                 "children": [
+                  { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                  { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                  { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"activated TAK1 mediates p38 MAPK activation",
+                 "children": [
+                  { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                  { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                  { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                  { "name":"null", "size":1.4309691},
+                  { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                 "children": [
+                  {
+                   "name":"CREB phosphorylation",
+                   "children": [
+                    { "name":"MSK1 activates ATF1", "size":1.319508},
+                    { "name":"MSK1 activates CREB", "size":1.319508},
+                    { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                    { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"Activation of the AP-1 family of transcription factors",
+                   "children": [
+                    { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                    { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                    { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK/MAPK targets",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                    { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                    { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                    { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                    { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                    {
+                     "name":"ERKs are inactivated",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                }
+                ]
+              },
+              {
+               "name":"IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation",
+               "children": [
+                { "name":"NEMO subunit of IKK complex binds to activated IRAK1 upon stimulation of TLR7/8 or 9.", "size":1.5848932},
+                { "name":"IRAK1 phosphorylates Pellino upon TLR7/8 or 9 activation ", "size":1.5157166},
+                { "name":"Pellino ubiquitinates hp-IRAK1 upon TLR7/8 or 9 activation<br>", "size":1.5848932},
+                { "name":"Pellino binds hp-IRAK1:TRAF6 upon TLR7/8 or 9 activation", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation",
+               "children": [
+                { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2 at endosome membrane", "size":1.4309691},
+                { "name":"IRAK2 induces TRAF6 oligomerization initiated from endosomal compartments", "size":1.4309691},
+                { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex upon TLR7/8 or 9 stimulation", "size":1.5848932},
+                { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains upon TLR stimulation ", "size":1.0},
+                { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 upon TLR7/8 or 9 activation", "size":1.6437519}
+                ]
+              }
+              ]
+            },
+            {
+             "name":"TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling",
+             "children": [
+              { "name":"Phosphorylation and release of IRF7 upon TLR7/8 or 9 activation", "size":1.6437519},
+              { "name":"TRAF6 ubiquitinqtes IRF7 in a K63-dependent manner following TLR7/8 or 9 stimulation", "size":1.6952182},
+              { "name":"Translocation of p-IRF7:p-IRF7 to nucleus", "size":1.1486983},
+              { "name":"Dimerization of p-IRF7", "size":1.1486983},
+              { "name":"TRAF6 interacts with IRF7 upon TLR7/8 or 9 activation", "size":1.5848932}
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Toll Like Receptor 5 (TLR5) Cascade",
+         "children": [
+          { "name":"Flagellin binds to TLR5", "size":1.319508},
+          {
+           "name":"MyD88 cascade initiated on plasma membrane",
+           "children": [
+            { "name":"MyD88 oligomerization within the complex of activated TLR:MyD88", "size":1.245731},
+            { "name":"IRAK4 autophosphorylation within the complex activated TLR:MyD88", "size":1.4309691},
+            { "name":"IRAK4 binds to MyD88 bound to the activated TLR5 or 10 receptor", "size":1.319508},
+            { "name":"TRAF6 binds MEKK1", "size":1.319508},
+            { "name":"MyD88 forms a complex with the activated TLR receptor", "size":1.1486983},
+            { "name":"IRAK1/or IRAK2 binds to the activated IRAK4 :oligo MyD88:activated TLR5 or 10 complex", "size":1.4309691},
+            { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomerl:activated TLR5 or 10 complex", "size":1.5157166},
+            { "name":"First phosphorylation of IRAK1 by IRAK4 bound to MyD88:activated TLR", "size":1.5157166},
+            { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to MyD88:activated TLR complex", "size":1.5157166},
+            { "name":"Multiple IRAK1 autophosphorylation within the complex p-IRAK4:oligo MyD88:activated TLR", "size":1.5157166},
+            { "name":"TRAF6 binds to hp- IRAK1 or p-IRAK2", "size":1.5157166},
+            { "name":"Dissociation of hp-IRAK1:TRAF6 or IRAK2:TRAF6-oligomer from the activated TLR5 or 10:oligo-Myd88:p-IRAK4 complex", "size":1.4309691},
+            {
+             "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+             "children": [
+              { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+              { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+              { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+              { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+              ]
+            },
+            {
+             "name":"IRAK2 mediated activation of TAK1 complex",
+             "children": [
+              { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 ", "size":1.6437519},
+              { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex", "size":1.5848932},
+              { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+              { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2", "size":1.4309691},
+              { "name":"IRAK2 induces TRAF6 oligomerization", "size":1.4309691}
+              ]
+            },
+            {
+             "name":"IRAK1 recruits IKK complex",
+             "children": [
+              { "name":"Pellino ubiquitinates hp-IRAK1", "size":1.5848932},
+              { "name":"NEMO subunit of IKK complex binds to activated IRAK1", "size":1.5848932},
+              { "name":"Pellino binds hp-IRAK1:TRAF6", "size":1.4309691},
+              { "name":"IRAK1 phosphorylates Pellino", "size":1.5157166}
+              ]
+            },
+            {
+             "name":"MAP kinase activation in TLR cascade",
+             "children": [
+              {
+               "name":"ERK activation",
+               "children": [
+                {
+                 "name":"ERK1 activation",
+                 "children": [
+                  { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                  { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                  { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                  { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                  { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                  { "name":"MEK1 binds ERK-1", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"ERK2 activation",
+                 "children": [
+                  { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                  { "name":"MEK2 binds ERK-2", "size":1.319508},
+                  { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                  { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                  { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                  ]
+                }
+                ]
+              },
+              {
+               "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+               "children": [
+                { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                ]
+              },
+              {
+               "name":"activated TAK1 mediates p38 MAPK activation",
+               "children": [
+                { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                { "name":"null", "size":1.4309691},
+                { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                ]
+              },
+              {
+               "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+               "children": [
+                {
+                 "name":"CREB phosphorylation",
+                 "children": [
+                  { "name":"MSK1 activates ATF1", "size":1.319508},
+                  { "name":"MSK1 activates CREB", "size":1.319508},
+                  { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                  { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"Activation of the AP-1 family of transcription factors",
+                 "children": [
+                  { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                  { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                  { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                  { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                  { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"ERK/MAPK targets",
+                 "children": [
+                  { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                  { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                  { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                  { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                  { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                  { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                  {
+                   "name":"ERKs are inactivated",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                    ]
+                  }
+                  ]
+                }
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Toll Like Receptor 3 (TLR3) Cascade",
+         "children": [
+          { "name":"Viral dsRNA binds the Toll-Like Receptor 3 (TLR3)", "size":1.1486983},
+          {
+           "name":"MyD88-independent TLR3/TLR4 cascade ",
+           "children": [
+            { "name":"Negative regulator SARM binds to TRIF", "size":1.1486983},
+            { "name":"Viral dsRNA:TLR3 recruits TRIF (TICAM1)", "size":1.319508},
+            { "name":"TRAM:TLR4:LY96:LPS:CD14 recruits TRIF (TICAM1)", "size":1.6437519},
+            {
+             "name":"TRIF-mediated TLR3/TLR4 signaling ",
+             "children": [
+              {
+               "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+               "children": [
+                { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"TRAF6 mediated induction of TAK1 complex",
+               "children": [
+                { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+                { "name":"Auto ubiquitination of TRAF6 bound to the activated TLR complex", "size":1.245731},
+                { "name":"Activated TLR3/4:TRIF recruits TRAF6", "size":1.1486983},
+                { "name":"Phosphorylated TAK1 leaves activated TLR receptor complex", "size":1.5157166},
+                { "name":"Activation of TAK1 complex bound to activated TLR", "size":1.5848932},
+                { "name":"Activated TLR:TRIF:K63-pUb-TRAF6 recruits TAK1complex", "size":1.5157166}
+                ]
+              },
+              {
+               "name":"TRIF-mediated programmed cell death",
+               "children": [
+                { "name":"TLR3/4-induced ripoptosome assembly", "size":1.4309691},
+                { "name":"RIP3 binds TRIF to mediate necroptosis", "size":1.0},
+                { "name":"Caspase-8 processing within TLR3/4 complex", "size":1.4757732}
+                ]
+              },
+              {
+               "name":"MAP kinase activation in TLR cascade",
+               "children": [
+                {
+                 "name":"ERK activation",
+                 "children": [
+                  {
+                   "name":"ERK1 activation",
+                   "children": [
+                    { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                    { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                    { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                    { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                    { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                    { "name":"MEK1 binds ERK-1", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK2 activation",
+                   "children": [
+                    { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                    { "name":"MEK2 binds ERK-2", "size":1.319508},
+                    { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                    { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                    { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                 "children": [
+                  { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                  { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                  { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"activated TAK1 mediates p38 MAPK activation",
+                 "children": [
+                  { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                  { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                  { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                  { "name":"null", "size":1.4309691},
+                  { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                 "children": [
+                  {
+                   "name":"CREB phosphorylation",
+                   "children": [
+                    { "name":"MSK1 activates ATF1", "size":1.319508},
+                    { "name":"MSK1 activates CREB", "size":1.319508},
+                    { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                    { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"Activation of the AP-1 family of transcription factors",
+                   "children": [
+                    { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                    { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                    { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK/MAPK targets",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                    { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                    { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                    { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                    { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                    {
+                     "name":"ERKs are inactivated",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                }
+                ]
+              },
+              {
+               "name":"IKK complex recruitment mediated by RIP1",
+               "children": [
+                { "name":"K63-linked ubiquitination of RIP1 bound to the activated TLR complex", "size":1.1486983},
+                { "name":"TRIF:activated TLR3/TLR4 complex recruits RIP1", "size":1.1486983},
+                { "name":"Nemo subunit of IKK complex binds polyubiquinated RIP1", "size":1.5157166}
+                ]
+              },
+              {
+               "name":"Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon",
+               "children": [
+                { "name":"IRF3/IRF7 recruitment to p-TBK1/p-IKK epsilon bound to the activated TLR", "size":1.5157166},
+                { "name":"Recruitment of TBK1/IKK epsilon to K63-pUb-TANK:K63-pUb-TRAF3:TRIF:activated TLR3/TLR4 followed by their phosphorylation", "size":1.5157166},
+                { "name":"TANK is ubiquitinated within TANK:K63polyUb-TRAF3:TRIF:activated TLR3/4", "size":1.3797296},
+                { "name":"TANK binds K63-poly-Ub-TRAF3:TRIF:activated TLR3/TLR4 ", "size":1.319508},
+                { "name":"Auto-ubiquitination of TRAF3", "size":1.245731},
+                { "name":"TRAF3 binds to TRIF:activated TLR3/4 complex", "size":1.1486983},
+                { "name":"Dimerized phospho-IRF3/IRF7 is transported to the nucleus", "size":0.0},
+                { "name":"Phosphorylation of IRF-3/IRF7 and their release from the activated TLR complex ", "size":1.5848932},
+                { "name":"Dimerization of phosphorylated IRF3/IRF7", "size":1.0}
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Trafficking and processing of endosomal TLR",
+         "children": [
+          { "name":"TLR folding by chaperones GP96 and CNPY3", "size":1.5157166},
+          { "name":"UNC93B1 delivers endosomal full-length TLRs to endolysosome", "size":1.4309691},
+          { "name":"Endosomal TLRs pass through the Golgi", "size":1.1486983},
+          { "name":"Full-length TLR3/7/8/9 binds to UNC93B1", "size":1.1486983},
+          { "name":"Folded full-length TLR7/8/9 dissociates from the GP96:CNPY3 complex ", "size":1.4757732},
+          { "name":"TLR9 processing at neutral pH", "size":1.1486983},
+          { "name":"TLR processing at low pH", "size":1.319508}
+          ]
+        },
+        {
+         "name":"Toll Like Receptor 10 (TLR10) Cascade",
+         "children": [
+          { "name":"Ligand binds to TLR10", "size":1.1486983},
+          {
+           "name":"MyD88 cascade initiated on plasma membrane",
+           "children": [
+            { "name":"MyD88 oligomerization within the complex of activated TLR:MyD88", "size":1.245731},
+            { "name":"IRAK4 autophosphorylation within the complex activated TLR:MyD88", "size":1.4309691},
+            { "name":"IRAK4 binds to MyD88 bound to the activated TLR5 or 10 receptor", "size":1.319508},
+            { "name":"TRAF6 binds MEKK1", "size":1.319508},
+            { "name":"MyD88 forms a complex with the activated TLR receptor", "size":1.1486983},
+            { "name":"IRAK1/or IRAK2 binds to the activated IRAK4 :oligo MyD88:activated TLR5 or 10 complex", "size":1.4309691},
+            { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomerl:activated TLR5 or 10 complex", "size":1.5157166},
+            { "name":"First phosphorylation of IRAK1 by IRAK4 bound to MyD88:activated TLR", "size":1.5157166},
+            { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to MyD88:activated TLR complex", "size":1.5157166},
+            { "name":"Multiple IRAK1 autophosphorylation within the complex p-IRAK4:oligo MyD88:activated TLR", "size":1.5157166},
+            { "name":"TRAF6 binds to hp- IRAK1 or p-IRAK2", "size":1.5157166},
+            { "name":"Dissociation of hp-IRAK1:TRAF6 or IRAK2:TRAF6-oligomer from the activated TLR5 or 10:oligo-Myd88:p-IRAK4 complex", "size":1.4309691},
+            {
+             "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+             "children": [
+              { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+              { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+              { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+              { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+              ]
+            },
+            {
+             "name":"IRAK2 mediated activation of TAK1 complex",
+             "children": [
+              { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 ", "size":1.6437519},
+              { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex", "size":1.5848932},
+              { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+              { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2", "size":1.4309691},
+              { "name":"IRAK2 induces TRAF6 oligomerization", "size":1.4309691}
+              ]
+            },
+            {
+             "name":"IRAK1 recruits IKK complex",
+             "children": [
+              { "name":"Pellino ubiquitinates hp-IRAK1", "size":1.5848932},
+              { "name":"NEMO subunit of IKK complex binds to activated IRAK1", "size":1.5848932},
+              { "name":"Pellino binds hp-IRAK1:TRAF6", "size":1.4309691},
+              { "name":"IRAK1 phosphorylates Pellino", "size":1.5157166}
+              ]
+            },
+            {
+             "name":"MAP kinase activation in TLR cascade",
+             "children": [
+              {
+               "name":"ERK activation",
+               "children": [
+                {
+                 "name":"ERK1 activation",
+                 "children": [
+                  { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                  { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                  { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                  { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                  { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                  { "name":"MEK1 binds ERK-1", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"ERK2 activation",
+                 "children": [
+                  { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                  { "name":"MEK2 binds ERK-2", "size":1.319508},
+                  { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                  { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                  { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                  ]
+                }
+                ]
+              },
+              {
+               "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+               "children": [
+                { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                ]
+              },
+              {
+               "name":"activated TAK1 mediates p38 MAPK activation",
+               "children": [
+                { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                { "name":"null", "size":1.4309691},
+                { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                ]
+              },
+              {
+               "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+               "children": [
+                {
+                 "name":"CREB phosphorylation",
+                 "children": [
+                  { "name":"MSK1 activates ATF1", "size":1.319508},
+                  { "name":"MSK1 activates CREB", "size":1.319508},
+                  { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                  { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"Activation of the AP-1 family of transcription factors",
+                 "children": [
+                  { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                  { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                  { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                  { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                  { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"ERK/MAPK targets",
+                 "children": [
+                  { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                  { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                  { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                  { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                  { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                  { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                  {
+                   "name":"ERKs are inactivated",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                    ]
+                  }
+                  ]
+                }
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Toll Like Receptor 4 (TLR4) Cascade",
+         "children": [
+          { "name":"MAL(TIRAP) binds PIP2-rich regions in the plasma membrane", "size":1.319508},
+          { "name":"CD14:LPS binds CR3", "size":1.4309691},
+          { "name":"Transfer of LPS onto TLR4", "size":1.4309691},
+          { "name":"Endocytosis of TRAM (TICAM2)", "size":1.1486983},
+          { "name":"Endocytosis of TLR4:LY96:LPS:CD14", "size":1.5157166},
+          { "name":"Association of LBP with LPS", "size":1.319508},
+          { "name":"TLR4:LY96:LPS:CD14 recruits TRAM (TICAM2)", "size":1.5848932},
+          {
+           "name":"Activated TLR4 signalling",
+           "children": [
+            {
+             "name":"MyD88:Mal cascade initiated on plasma membrane",
+             "children": [
+              { "name":"IRAK4 autophosphorylation in the complex with activated TLR:MyD88:Mal", "size":1.6437519},
+              { "name":"IRAK4 binds to the activated TLR receptor:Mal:MyD88 complex ", "size":1.5848932},
+              { "name":"Dissociation of p-IRAK2:TRAF6 from the activated TLR:oligo-Myd88:Mal:p-IRAK4 complex", "size":1.6952182},
+              { "name":"MAL is phosphorylated by BTK", "size":1.4309691},
+              { "name":"Dissociation of hp-IRAK1:TRAF6 from the activated TLR:oligo-Myd88:Mal:p-IRAK4 complex", "size":1.6952182},
+              { "name":"Activated TLR2/4:MAL interacts with BTK ", "size":1.4309691},
+              { "name":"TRAF6 binds to p-IRAK2 ", "size":1.6952182},
+              { "name":"MyD88 oligomerization within the complex of activated TLR:Mal:MyD88", "size":1.5518456},
+              { "name":"MyD88 forms a complex with MAL:activated TLR2/4", "size":1.5157166},
+              { "name":"TRAF6 binds to hp- IRAK1", "size":1.6952182},
+              { "name":"Multiple IRAK1 autophosphorylation steps", "size":1.6952182},
+              { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to activated TLR:MyD88:Mal", "size":1.6952182},
+              { "name":"Activated TLR2/4 interacts with MAL(TIRAP)", "size":1.319508},
+              { "name":"First phosphorylation of IRAK1 by IRAK4 bound to activated TLR:MyD88:Mal", "size":1.6952182},
+              { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomer:Mal:activated TLR complex", "size":1.6952182},
+              { "name":"TRAF6 binds MEKK1", "size":1.319508},
+              { "name":"IRAK1 or IRAK2 binds to the activated IRAK4 :activated TLR:MyD88:Mal complex", "size":1.6437519},
+              {
+               "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+               "children": [
+                { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK2 mediated activation of TAK1 complex",
+               "children": [
+                { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 ", "size":1.6437519},
+                { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex", "size":1.5848932},
+                { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+                { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2", "size":1.4309691},
+                { "name":"IRAK2 induces TRAF6 oligomerization", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK1 recruits IKK complex",
+               "children": [
+                { "name":"Pellino ubiquitinates hp-IRAK1", "size":1.5848932},
+                { "name":"NEMO subunit of IKK complex binds to activated IRAK1", "size":1.5848932},
+                { "name":"Pellino binds hp-IRAK1:TRAF6", "size":1.4309691},
+                { "name":"IRAK1 phosphorylates Pellino", "size":1.5157166}
+                ]
+              },
+              {
+               "name":"MAP kinase activation in TLR cascade",
+               "children": [
+                {
+                 "name":"ERK activation",
+                 "children": [
+                  {
+                   "name":"ERK1 activation",
+                   "children": [
+                    { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                    { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                    { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                    { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                    { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                    { "name":"MEK1 binds ERK-1", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK2 activation",
+                   "children": [
+                    { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                    { "name":"MEK2 binds ERK-2", "size":1.319508},
+                    { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                    { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                    { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                 "children": [
+                  { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                  { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                  { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"activated TAK1 mediates p38 MAPK activation",
+                 "children": [
+                  { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                  { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                  { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                  { "name":"null", "size":1.4309691},
+                  { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                 "children": [
+                  {
+                   "name":"CREB phosphorylation",
+                   "children": [
+                    { "name":"MSK1 activates ATF1", "size":1.319508},
+                    { "name":"MSK1 activates CREB", "size":1.319508},
+                    { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                    { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"Activation of the AP-1 family of transcription factors",
+                   "children": [
+                    { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                    { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                    { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK/MAPK targets",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                    { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                    { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                    { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                    { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                    {
+                     "name":"ERKs are inactivated",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                }
+                ]
+              }
+              ]
+            },
+            {
+             "name":"MyD88-independent TLR3/TLR4 cascade ",
+             "children": [
+              { "name":"Negative regulator SARM binds to TRIF", "size":1.1486983},
+              { "name":"Viral dsRNA:TLR3 recruits TRIF (TICAM1)", "size":1.319508},
+              { "name":"TRAM:TLR4:LY96:LPS:CD14 recruits TRIF (TICAM1)", "size":1.6437519},
+              {
+               "name":"TRIF-mediated TLR3/TLR4 signaling ",
+               "children": [
+                {
+                 "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+                 "children": [
+                  { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                  { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                  { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                  { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                  ]
+                },
+                {
+                 "name":"TRAF6 mediated induction of TAK1 complex",
+                 "children": [
+                  { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains", "size":1.0},
+                  { "name":"Auto ubiquitination of TRAF6 bound to the activated TLR complex", "size":1.245731},
+                  { "name":"Activated TLR3/4:TRIF recruits TRAF6", "size":1.1486983},
+                  { "name":"Phosphorylated TAK1 leaves activated TLR receptor complex", "size":1.5157166},
+                  { "name":"Activation of TAK1 complex bound to activated TLR", "size":1.5848932},
+                  { "name":"Activated TLR:TRIF:K63-pUb-TRAF6 recruits TAK1complex", "size":1.5157166}
+                  ]
+                },
+                {
+                 "name":"TRIF-mediated programmed cell death",
+                 "children": [
+                  { "name":"TLR3/4-induced ripoptosome assembly", "size":1.4309691},
+                  { "name":"RIP3 binds TRIF to mediate necroptosis", "size":1.0},
+                  { "name":"Caspase-8 processing within TLR3/4 complex", "size":1.4757732}
+                  ]
+                },
+                {
+                 "name":"MAP kinase activation in TLR cascade",
+                 "children": [
+                  {
+                   "name":"ERK activation",
+                   "children": [
+                    {
+                     "name":"ERK1 activation",
+                     "children": [
+                      { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                      { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                      { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                      { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                      { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                      { "name":"MEK1 binds ERK-1", "size":1.319508}
+                      ]
+                    },
+                    {
+                     "name":"ERK2 activation",
+                     "children": [
+                      { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                      { "name":"MEK2 binds ERK-2", "size":1.319508},
+                      { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                      { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                      { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                      ]
+                    }
+                    ]
+                  },
+                  {
+                   "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                   "children": [
+                    { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                    { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                    { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"activated TAK1 mediates p38 MAPK activation",
+                   "children": [
+                    { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                    { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                    { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                    { "name":"null", "size":1.4309691},
+                    { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                   "children": [
+                    {
+                     "name":"CREB phosphorylation",
+                     "children": [
+                      { "name":"MSK1 activates ATF1", "size":1.319508},
+                      { "name":"MSK1 activates CREB", "size":1.319508},
+                      { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                      { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                      ]
+                    },
+                    {
+                     "name":"Activation of the AP-1 family of transcription factors",
+                     "children": [
+                      { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                      { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                      { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                      { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                      { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                      ]
+                    },
+                    {
+                     "name":"ERK/MAPK targets",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                      { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                      { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                      { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                      { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                      {
+                       "name":"ERKs are inactivated",
+                       "children": [
+                        { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                        { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                        ]
+                      }
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"IKK complex recruitment mediated by RIP1",
+                 "children": [
+                  { "name":"K63-linked ubiquitination of RIP1 bound to the activated TLR complex", "size":1.1486983},
+                  { "name":"TRIF:activated TLR3/TLR4 complex recruits RIP1", "size":1.1486983},
+                  { "name":"Nemo subunit of IKK complex binds polyubiquinated RIP1", "size":1.5157166}
+                  ]
+                },
+                {
+                 "name":"Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon",
+                 "children": [
+                  { "name":"IRF3/IRF7 recruitment to p-TBK1/p-IKK epsilon bound to the activated TLR", "size":1.5157166},
+                  { "name":"Recruitment of TBK1/IKK epsilon to K63-pUb-TANK:K63-pUb-TRAF3:TRIF:activated TLR3/TLR4 followed by their phosphorylation", "size":1.5157166},
+                  { "name":"TANK is ubiquitinated within TANK:K63polyUb-TRAF3:TRIF:activated TLR3/4", "size":1.3797296},
+                  { "name":"TANK binds K63-poly-Ub-TRAF3:TRIF:activated TLR3/TLR4 ", "size":1.319508},
+                  { "name":"Auto-ubiquitination of TRAF3", "size":1.245731},
+                  { "name":"TRAF3 binds to TRIF:activated TLR3/4 complex", "size":1.1486983},
+                  { "name":"Dimerized phospho-IRF3/IRF7 is transported to the nucleus", "size":0.0},
+                  { "name":"Phosphorylation of IRF-3/IRF7 and their release from the activated TLR complex ", "size":1.5848932},
+                  { "name":"Dimerization of phosphorylated IRF3/IRF7", "size":1.0}
+                  ]
+                }
+                ]
+              }
+              ]
+            }
+            ]
+          },
+          {
+           "name":"Transfer of LPS from LBP carrier to CD14",
+           "children": [
+            { "name":"Secreted CD14 binds LPS", "size":1.4309691},
+            { "name":"GPI-bound CD14 binds LPS", "size":1.4309691}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Toll Like Receptor 9 (TLR9) Cascade",
+         "children": [
+          { "name":"Engulfed CpG DNA binds to endosomal C-ter TLR9", "size":1.1486983},
+          { "name":"Engulfed CpG DNA binds to endosomal N-ter TLR9 dimer", "size":1.1486983},
+          { "name":"Engulfed CpG DNA binds to endosomal full-length TLR9", "size":1.1486983},
+          { "name":"Rab5-mediated recruitment of class III PI3K to TLR9", "size":1.4309691},
+          {
+           "name":"MyD88 dependent cascade initiated on endosome",
+           "children": [
+            { "name":"Multiple IRAK1 autophosphorylation steps within the complex pIRAK4:MyD88:activated TLR7/8 or 9", "size":1.5157166},
+            { "name":"MyD88 oligomerization within the complex of activated TLR 7/8 or 9 : MyD88", "size":1.245731},
+            { "name":"TRAF6 binds to hp- IRAK1/or p-IRAK2:p-IRAK4:MyD88:activated TLR7/8 or 9 ", "size":1.5157166},
+            { "name":"MyD88 interacts with the activated TLR receptor 7, 8 or 9 ", "size":1.1486983},
+            { "name":"First phosphorylation of IRAK1 by IRAK4 bound to MyD88:activated TLR 7/8 or 9", "size":1.5157166},
+            { "name":"Second phosphorylation of IRAK1 by IRAK4 bound to MyD88: activated TLR 7/8 or 9", "size":1.5157166},
+            { "name":"Phosphorylation of IRAK2 bound to the activated IRAK4:MyD88 oligomer:activated TLR 7/8 or 9", "size":1.5157166},
+            { "name":"IRAK1/or IRAK2 binds to the activated IRAK4 :MyD88:activated TLR 7/8 or 9.", "size":1.4309691},
+            { "name":"IRAK4 autophosphorylation in the complex with MyD88:activated TLR 7/8 or 9", "size":1.4309691},
+            { "name":"IRAK4 binds to the activated TLR7/8 or 9 receptor:MyD88 complex ", "size":1.319508},
+            {
+             "name":"TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation",
+             "children": [
+              { "name":"TRAF6 binds MEKK1", "size":1.319508},
+              { "name":"Dissociation of hp-IRAK1/or IRAK2:TRAF6-oligomer from the p-IRAK4 :oligo-Myd88:activated TLR7/8 or 9 complex", "size":1.5157166},
+              {
+               "name":"TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+               "children": [
+                { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+                { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+                { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+                { "name":"IKBKA, IKBKB and IKBKG form IKK complex", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"MAP kinase activation in TLR cascade",
+               "children": [
+                {
+                 "name":"ERK activation",
+                 "children": [
+                  {
+                   "name":"ERK1 activation",
+                   "children": [
+                    { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                    { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                    { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                    { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                    { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                    { "name":"MEK1 binds ERK-1", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK2 activation",
+                   "children": [
+                    { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                    { "name":"MEK2 binds ERK-2", "size":1.319508},
+                    { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                    { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                    { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                    ]
+                  }
+                  ]
+                },
+                {
+                 "name":"JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",
+                 "children": [
+                  { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+                  { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+                  { "name":"Activated TAK1 phosphorylates MKK4/MKK7", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"activated TAK1 mediates p38 MAPK activation",
+                 "children": [
+                  { "name":"Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK2 or MAPKAPK3", "size":1.4309691},
+                  { "name":"Phosphorylated MKK3/MKK6 migrates to nucleus", "size":1.1486983},
+                  { "name":"activated human TAK1 phosphorylates MKK3/MKK6", "size":1.319508},
+                  { "name":"null", "size":1.4309691},
+                  { "name":"Nuclear export of human p38 MAPK mediated by its substrate MAPKAPK2 or 3", "size":1.319508}
+                  ]
+                },
+                {
+                 "name":"MAPK targets/ Nuclear events mediated by MAP kinases",
+                 "children": [
+                  {
+                   "name":"CREB phosphorylation",
+                   "children": [
+                    { "name":"MSK1 activates ATF1", "size":1.319508},
+                    { "name":"MSK1 activates CREB", "size":1.319508},
+                    { "name":"MAPKAPK2 phosphorylates CREB at Serine 133", "size":1.319508},
+                    { "name":"RSK1/2/3 phosphorylates CREB at Serine 133", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"Activation of the AP-1 family of transcription factors",
+                   "children": [
+                    { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+                    { "name":"Phosphorylated MAPKs phosphorylate ATF-2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. ATF2/c-JUN heterodimer. ", "size":1.319508},
+                    { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+                    { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508}
+                    ]
+                  },
+                  {
+                   "name":"ERK/MAPK targets",
+                   "children": [
+                    { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                    { "name":"ERK5 activates the transcription factor MEF2", "size":1.319508},
+                    { "name":"ERK1/2 activates ELK1", "size":1.319508},
+                    { "name":"ERK1/2 phosphorylates MSK1", "size":1.319508},
+                    { "name":"p38MAPK phosphorylates MSK1", "size":1.319508},
+                    { "name":"ERK1/2/5 activate RSK1/2/3", "size":1.319508},
+                    {
+                     "name":"ERKs are inactivated",
+                     "children": [
+                      { "name":"ERKs are inactivated by protein phosphatase 2A", "size":1.319508},
+                      { "name":"ERKs are inactivated by dual-specific phosphatases (DUSPs)", "size":1.319508}
+                      ]
+                    }
+                    ]
+                  }
+                  ]
+                }
+                ]
+              },
+              {
+               "name":"IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation",
+               "children": [
+                { "name":"NEMO subunit of IKK complex binds to activated IRAK1 upon stimulation of TLR7/8 or 9.", "size":1.5848932},
+                { "name":"IRAK1 phosphorylates Pellino upon TLR7/8 or 9 activation ", "size":1.5157166},
+                { "name":"Pellino ubiquitinates hp-IRAK1 upon TLR7/8 or 9 activation<br>", "size":1.5848932},
+                { "name":"Pellino binds hp-IRAK1:TRAF6 upon TLR7/8 or 9 activation", "size":1.4309691}
+                ]
+              },
+              {
+               "name":"IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation",
+               "children": [
+                { "name":"Auto ubiquitination of oligo-TRAF6 bound to p-IRAK2 at endosome membrane", "size":1.4309691},
+                { "name":"IRAK2 induces TRAF6 oligomerization initiated from endosomal compartments", "size":1.4309691},
+                { "name":"Activated TRAF6:p-IRAK2 interacts with TAK1 complex upon TLR7/8 or 9 stimulation", "size":1.5848932},
+                { "name":"Activated TRAF6 synthesizes unanchored polyubiquitin chains upon TLR stimulation ", "size":1.0},
+                { "name":"Auto phosphorylation of TAK1 bound to p-IRAK2:pUb oligo-TRAF6: free K63 pUb:TAB1:TAB2/TAB3 upon TLR7/8 or 9 activation", "size":1.6437519}
+                ]
+              }
+              ]
+            },
+            {
+             "name":"TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling",
+             "children": [
+              { "name":"Phosphorylation and release of IRF7 upon TLR7/8 or 9 activation", "size":1.6437519},
+              { "name":"TRAF6 ubiquitinqtes IRF7 in a K63-dependent manner following TLR7/8 or 9 stimulation", "size":1.6952182},
+              { "name":"Translocation of p-IRF7:p-IRF7 to nucleus", "size":1.1486983},
+              { "name":"Dimerization of p-IRF7", "size":1.1486983},
+              { "name":"TRAF6 interacts with IRF7 upon TLR7/8 or 9 activation", "size":1.5848932}
+              ]
+            }
+            ]
+          }
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Fcgamma receptor (FCGR) dependent phagocytosis",
+       "children": [
+        {
+         "name":"Role of phospholipids in phagocytosis",
+         "children": [
+          { "name":"Active PLCG1 hydrolyses PIP2", "size":1.319508},
+          { "name":"Release of PLCG from FCGR", "size":1.5848932},
+          { "name":"Phosphorylation and activation of PLCG", "size":1.6437519},
+          { "name":"Recruitment of PLCgamma to membrane", "size":1.5157166},
+          { "name":"PI3K phosphorylates PIP2 to PIP3", "size":1.319508},
+          { "name":"Production of AA by iPLA2 upon FCGR activation", "size":1.319508},
+          { "name":"Conversion of PA into DAG by PAP-1", "size":1.319508},
+          { "name":"PI3K binds to p-6Y-SYK", "size":1.5848932},
+          { "name":"Hydrolysis of PC to PA by PLD", "size":1.319508},
+          { "name":"DAG stimulates protein kinase C-delta", "size":1.319508},
+          { "name":"IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol", "size":1.1486983},
+          { "name":"IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel", "size":1.245731}
+          ]
+        },
+        {
+         "name":"Regulation of actin dynamics for phagocytic cup formation",
+         "children": [
+          { "name":"RAC and CDC42 activate PAK", "size":1.1486983},
+          { "name":"PAK1 phosphorylates LIMK1", "size":1.319508},
+          { "name":"Autophosphorylation of PAK1", "size":1.3797296},
+          { "name":"ABL phosphorylates WAVEs", "size":1.8205643},
+          { "name":"p-ERK phosphorylates WAVEs and ABI", "size":1.8205643},
+          { "name":"WAVE Regulatory Complex (WRC) interacts with RAC1 and PIP3 and gets activated", "size":1.7826024},
+          { "name":"WASPs or WAVEs activate the ARP2/3 complex", "size":1.8556007},
+          { "name":"Attachment of preexisting mother filament and initiation of branching", "size":1.8556007},
+          { "name":"Recruitment of VAV1 to p-6Y-SYK", "size":1.5848932},
+          { "name":"Role of myosins in phagosome formation", "size":1.9873408},
+          { "name":"Detachment of WASP/WAVE", "size":1.8556007},
+          { "name":"Branching and elongation of mother and daughter filaments", "size":1.9331821},
+          { "name":"Phosphorylation of cofilin by LIMK-1", "size":1.4309691},
+          { "name":"Recruitment of CRKII:DOCK180:ELMO complex to FCGR", "size":1.6437519},
+          { "name":"Activation of CDC42 by unknown mechanism", "size":1.4309691},
+          { "name":"Extension of pseudopodia by myosin-X in a PI3K dependent manner", "size":1.961009},
+          { "name":"Activation of RAC1 by CRKII:DOCK180:ELMO", "size":1.4309691},
+          { "name":"Activation of WASP and N-WASP by CDC42", "size":1.5157166},
+          { "name":"Dimerization of LIMK1 by Hsp90", "size":1.319508},
+          { "name":"Phosphorylation of VAV", "size":1.6153942},
+          { "name":"Activation of WASP/N-WASP by WIP family and SH3 domain proteins", "size":1.6437519},
+          { "name":"Transphosphorylation of pLIMK1", "size":1.4309691},
+          { "name":"Activation of RAC1 by VAV", "size":1.4309691},
+          { "name":"Phosphorylation of WASP/N-WASP", "size":1.6952182}
+          ]
+        },
+        {
+         "name":"FCGR activation",
+         "children": [
+          { "name":"Cross-linking of FCGRIA with IgG-coated Ag", "size":1.5157166},
+          { "name":"Cross-linking of FCGRIIA with IgG-coated Ag", "size":1.4309691},
+          { "name":"Cross-linking of FCGRIIIA with IgG-coated Ag", "size":1.4309691},
+          { "name":"Phosphorylation of SYK by Src kinases", "size":1.5157166},
+          { "name":"Sequestering and phosphorylation Fc gamma receptors in the lipid rafts", "size":1.4309691},
+          { "name":"Recruitment of SYK to phosphorylated ITAMs", "size":1.4309691}
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Cytosolic sensors of pathogen-associated DNA ",
+       "children": [
+        { "name":"RNA polymerase III transcribes microbial dsDNA to dsRNA", "size":0.0},
+        { "name":"MRE11 binds cytosolic DNA", "size":1.1486983},
+        { "name":"DNA-PK binds microbial dsDNA", "size":1.4309691},
+        {
+         "name":"STING mediated induction of host immune responses",
+         "children": [
+          { "name":"cGAS binds cytosolic DNA", "size":1.1486983},
+          { "name":"STING binds cyclic GMP-AMP", "size":1.319508},
+          { "name":"STING dimerization", "size":1.1486983},
+          { "name":"DDX41 binds dsDNA or c-di-NMP", "size":1.1486983},
+          { "name":"IFI16 binds cytosolic dsDNA", "size":1.1486983},
+          { "name":"cGAS produces cyclic GMP-AMP", "size":1.319508},
+          { "name":"STING binds c-di-GMP", "size":1.319508},
+          {
+           "name":"IRF3-mediated induction of type I IFN",
+           "children": [
+            { "name":"p-T,4S-IRF3 is dimerized", "size":1.1486983},
+            { "name":"IRF3 is phosphorylated by TBK1", "size":1.5157166},
+            { "name":"TBK1 is phosphorylated within STING:TBK1:IRF3 complex", "size":1.5157166},
+            { "name":"STING recruits TBK1 and IRF3", "size":1.4309691},
+            { "name":"Dimerized phospho-IRF3 migrates to the nucleus", "size":1.1486983}
+            ]
+          },
+          {
+           "name":"STAT6-mediated induction of chemokines",
+           "children": [
+            { "name":"TBK1 is phosphorylated within STING:TBK1:STAT6 complex", "size":1.5157166},
+            { "name":"STING recruits TBK1 and STAT6", "size":1.4309691},
+            { "name":"p-S407-STAT6 is phosphorylated at Tyr641", "size":1.319508},
+            { "name":"TBK1 phosphorylates STAT6 at Ser407", "size":1.5157166},
+            { "name":"p-S407,Y641-STAT6 dimer migrates to the nucleus", "size":1.1486983},
+            { "name":"p-S407,Y641-STAT6 is dimerized", "size":1.1486983}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production",
+         "children": [
+          { "name":"Beta-catenin enhances association of IRF3 with CBP/p300 ", "size":1.4309691},
+          { "name":"Beta-catenin migrates to the nucleus", "size":1.1486983},
+          { "name":"Phosphorylation of beta-catenin at Ser552", "size":1.4309691},
+          { "name":"LRR FLII-interacting protein 1 associates with beta-catenin", "size":1.319508},
+          { "name":"LRR FLII-interacting protein 1 binds dsDNA", "size":1.1486983}
+          ]
+        },
+        {
+         "name":"DEx/H-box helicases activate type I IFN and inflammatory cytokines production ",
+         "children": [
+          { "name":"DHX36 binds DNA", "size":1.1486983},
+          { "name":"Translocation of p-IRF7:p-IRF7 to nucleus", "size":1.1486983},
+          { "name":"Released NFkB complex is transported to nucleus", "size":1.319508},
+          { "name":"DHX36 or DHX9 binds MyD88", "size":1.0},
+          { "name":"DHX9 binds DNA", "size":1.1486983}
+          ]
+        },
+        {
+         "name":"Regulation of innate immune responses to cytosolic DNA",
+         "children": [
+          { "name":"DDX41 ubiquitination by TRIM21", "size":1.3797296},
+          { "name":"STING binds TRIM32 or TRIM56 ", "size":1.319508},
+          { "name":"STING ubiquitination by TRIM32 or TRIM56", "size":1.3797296},
+          { "name":"NLRP4 and DTX4 associate with p-S172-TBK1", "size":1.319508},
+          { "name":"p-S172-TBK1 is ubiquitinated by DTX4", "size":1.3797296},
+          {
+           "name":"Regulation by TREX1",
+           "children": [
+            { "name":"TREX1 binds retroviral-derived DNA", "size":1.319508},
+            { "name":"Viral DNA cleavage by TREX1", "size":1.5157166}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"ZBP1(DAI) mediated induction of type I IFNs",
+         "children": [
+          { "name":"ZBP1 binds cytosolic DNA", "size":1.1486983},
+          {
+           "name":"RIP-mediated NFkB activation via ZBP1",
+           "children": [
+            { "name":"RIP1 facilitates IKK complex phosphorylation", "size":1.4757732},
+            { "name":"ZBP1(DAI) recruits RIP1 and RIP3", "size":1.4309691},
+            { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+            { "name":"Released NFkB complex is transported to nucleus", "size":1.319508}
+            ]
+          },
+          {
+           "name":"IRF3 mediated activation of type 1 IFN",
+           "children": [
+            { "name":"p-T,4S-IRF3 is dimerized", "size":1.1486983},
+            { "name":"Dimerized phospho-IRF3 migrates to the nucleus", "size":1.1486983},
+            { "name":"Recruitment TBK1 to dsDNA:ZBP1 followed by its activation", "size":1.4309691},
+            { "name":"Phosphorylation and release of IRF3 ", "size":1.5157166},
+            { "name":"Recruitment of IRF3 to activated ZBP1:TBK1", "size":1.4309691}
+            ]
+          }
+          ]
+        }
+        ]
+      },
+      {
+       "name":"RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways",
+       "children": [
+        { "name":"K-63-linked polyubiquitination of RIG-I", "size":1.4309691},
+        { "name":"dsRNA binds to RIG-I", "size":1.319508},
+        { "name":"RIG-I/MDA5 interacts with IPS-1", "size":1.1486983},
+        { "name":"dsRNA binds to MDA5", "size":1.319508},
+        {
+         "name":"TRAF6 mediated IRF7 activation",
+         "children": [
+          { "name":"p-IRF7 dimer interacts with coactivator CBP/p300", "size":1.319508},
+          { "name":"Translocation of p-IRF7:p-IRF7 to nucleus", "size":1.1486983},
+          { "name":"Phosphorylation and release of IRF7", "size":1.6437519},
+          { "name":"Dimerization of p-IRF7", "size":1.1486983},
+          { "name":"Recruitment of IRF7 to TRAF6", "size":1.5848932},
+          { "name":"Recruitment of TBK1/IKK epsilon complex to TANK:TRAF6", "size":1.5848932},
+          { "name":"Recruitment of TANK to TRAF6", "size":1.4309691},
+          { "name":"Recruitment of TRAF6/TRAF2 to IPS-1", "size":1.319508},
+          { "name":"Formation of VAF (virus-activated factor) complex", "size":1.4309691},
+          { "name":"VAF/pIRF7:CBP/p300 binds the promoters of type-I IFN genes", "size":0.0}
+          ]
+        },
+        {
+         "name":"TRAF6 mediated NF-kB activation",
+         "children": [
+          { "name":"Interaction of MEKK1 with TRAF6", "size":1.4309691},
+          { "name":"Phospho-IKK Complex phosphorylates IkB within the IkB:NFkB Complex", "size":1.5157166},
+          { "name":"Activation of IKK by MEKK1", "size":1.4757732},
+          { "name":"Released NFkB complex is transported to nucleus", "size":1.319508}
+          ]
+        },
+        {
+         "name":"TRAF3-dependent IRF activation pathway",
+         "children": [
+          { "name":"IRF3:CBP/p300 complex binds the promoters of IFN-beta", "size":1.319508},
+          { "name":"Interaction of CBP/p300 with p-IRF3 dimer", "size":1.319508},
+          { "name":"Translocation of phosphorylated IRF3/7 dimers into nucleus", "size":1.5157166},
+          { "name":"Dimerization of Phospho IRF3 or phospho IRF7", "size":1.3797296},
+          { "name":"Phosphorylation and release of IRF3/IRF7", "size":1.5848932},
+          { "name":"Recruitment of IRF3/7Â ", "size":1.5157166},
+          { "name":"TBK1/IKK epsilon complex interacts with IPS-1 bound TRAF3", "size":1.5157166},
+          { "name":"Recruitment of TRAF3 to IPS-1", "size":1.319508}
+          ]
+        },
+        {
+         "name":"NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10",
+         "children": [
+          { "name":"IPS-1 interacts with RIP-1 and FADD", "size":1.4309691},
+          { "name":"Recruitment of IKK complex", "size":1.6952182},
+          { "name":"Dimerzation of procaspase-8/10", "size":1.5518456},
+          { "name":"Processing of caspases", "size":1.6702777},
+          { "name":"Recruitment of caspase-8 and -10 to FADD complex", "size":1.5157166}
+          ]
+        },
+        {
+         "name":"Negative regulators of RIG-I/MDA5 signaling",
+         "children": [
+          { "name":"Negative regulation of RIG-I/MDA5 signaling by DUBA", "size":1.3797296},
+          { "name":"CYLD mediated deubiquitination of RIG-I", "size":1.245731},
+          { "name":"Recruitment of AIP4 and K-48 ubiquitination of MAVS/IPS-1", "size":1.4309691},
+          { "name":"Interaction of PCBP2 with MAVS/IPS-1", "size":1.319508},
+          { "name":"Interaction of PIN1 with p-IRF3", "size":1.319508},
+          { "name":"RNF125 mediated ubiquitination of RIG-I, MDA5 and IPS-1", "size":1.319508},
+          { "name":"Inhibition of RIG-I/MDA5 signaling by ATG5-ATG12 conjugate", "size":1.4309691},
+          { "name":"PIN1 mediated IRF3 degradation", "size":1.245731},
+          { "name":"NLRX1 inhibits IPS-1-RIG-I interaction.", "size":1.319508},
+          { "name":"ISGylation of RIG-I", "size":1.5157166},
+          { "name":"TAX1BP1:A20 inhibit TBK1/IKKi K63-polyubiquitination", "size":1.4309691},
+          { "name":"NLRC5 interacts with RIG-I/MDA5 and inhibit IPS-1 binding", "size":1.1486983},
+          { "name":"Negative regulation of RIG-I/MDA5 signaling by TRIAD3A", "size":1.319508}
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways",
+       "children": [
+        {
+         "name":"Inflammasomes",
+         "children": [
+          {
+           "name":"The AIM2 inflammasome",
+           "children": [
+            { "name":"dsDNA:AIM2:ASC cluster binds procaspase-1", "size":1.319508},
+            { "name":"dsDNA:AIM2 clusters bind ASC", "size":1.1486983},
+            { "name":"AIM2 binds dsDNA", "size":1.319508},
+            { "name":"AIM2 oligomerizes", "size":1.1486983}
+            ]
+          },
+          {
+           "name":"The IPAF inflammasome",
+           "children": [
+            { "name":"IPAF is activated", "size":1.1486983},
+            { "name":"IPAF binds procaspase-1", "size":1.319508}
+            ]
+          },
+          {
+           "name":"The NLRP1 inflammasome",
+           "children": [
+            { "name":"Bcl-2 and Bcl-XL bind NLRP1", "size":1.319508},
+            { "name":"NLRP1 oligomerizes", "size":1.245731},
+            { "name":"MDP:NLRP1 binds ATP", "size":1.4309691},
+            { "name":"NLRP1 senses MDP", "size":1.319508}
+            ]
+          },
+          {
+           "name":"The NLRP3 inflammasome",
+           "children": [
+            { "name":"SGT1 binds HSP90", "size":1.319508},
+            { "name":"Pyrin binds ASC", "size":1.319508},
+            { "name":"PSTPIP1 binds Pyrin", "size":1.319508},
+            { "name":"TXNIP binds reduced thioredoxin", "size":1.319508},
+            { "name":"The CARD domain of ASC recruits Procaspase-1", "size":1.319508},
+            { "name":"SGT1:HSP90 binds inactive NLRP3", "size":1.4309691},
+            { "name":"P2X7 mediates loss of intracellular K+", "size":1.1486983},
+            { "name":"TXNIP is released from oxidized thioredoxin", "size":1.319508},
+            { "name":"P2X7 mediates membrane pores that include pannexin-1", "size":1.4309691},
+            { "name":"ROS oxidize thioredoxin", "size":1.245731},
+            { "name":"ATP binds to P2X7", "size":1.319508},
+            { "name":"NLRP3 activation by small molecules", "size":1.5157166},
+            { "name":"P2X7 forms oligomeric non-selective cation channels", "size":1.319508},
+            { "name":"TXNIP binds NLRP3", "size":1.319508},
+            { "name":"NLRP3 oligomerizes via NACHT domains", "size":0.0},
+            { "name":"NLRP3 activation by elicitor proteins", "size":1.5848932},
+            { "name":"ASC is recruited via a PYD-PYD interaction", "size":1.1486983}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"NOD1/2 Signaling Pathway",
+         "children": [
+          { "name":"A20 deubiquitinates RIP2", "size":1.319508},
+          { "name":"RIP2 binds NEMO", "size":1.319508},
+          { "name":"RIP2 induces K63-linked ubiquitination of NEMO", "size":1.319508},
+          { "name":"CYLD deubiquitinates NEMO", "size":1.319508},
+          { "name":"RIP2 is K63 polyubiquitinated", "size":1.319508},
+          { "name":"CARD9 binds RIP2 (and NOD2)", "size":1.319508},
+          { "name":"MDP elicits a NOD2 response", "size":1.319508},
+          { "name":"Activated TAK1 mediates phosphorylation of the IKK Complex", "size":1.4757732},
+          { "name":"Activation of p38 MAPK", "size":1.319508},
+          { "name":"Activated NOD1 oligomerizes", "size":1.319508},
+          { "name":"TAK1 phosphorylates MKK6", "size":1.319508},
+          { "name":"Activated NOD2 oligomerizes", "size":1.319508},
+          { "name":"NOD1 induced apoptosis is mediated by RIP2 and CARD8", "size":1.4309691},
+          { "name":"Activated NOD oligomer recruites RIP2 (RICK)", "size":1.1486983},
+          { "name":"K63 polyubiquitinated RIP2 associates with the TAK1 complex", "size":1.5848932},
+          { "name":"TAK1 is activated", "size":1.5848932},
+          { "name":"iE-DAP elicits a NOD1 response", "size":1.319508}
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Fc epsilon receptor (FCERI) signaling",
+       "children": [
+        { "name":"Phosphorylation of LAT by p-SYK", "size":1.319508},
+        { "name":"Recruitment of SYK to p-FCERI gamma subunit", "size":1.5157166},
+        { "name":"Phosphorylation of SYK", "size":1.5848932},
+        { "name":"Allergen dependent IgE bound FCERI aggregation", "size":1.3797296},
+        { "name":"Phosphorylation of beta and gamma subunits by LYN", "size":1.4309691},
+        { "name":"Autophosphorylation of LYN kinase", "size":1.319508},
+        {
+         "name":"FCERI mediated NF-kB activation",
+         "children": [
+          { "name":"Oligomerization of p-CARMA1", "size":1.4309691},
+          { "name":"Auto-ubiquitination of TRAF6", "size":1.6437519},
+          { "name":"Recruitment of TAK1 kinase complex to oligo-K63-pUb-TRAF6", "size":1.6437519},
+          { "name":"Recruitment of TRAF6 to CBM complex by binding to MALT1", "size":1.4309691},
+          { "name":"Oligomerization of TRAF6", "size":1.4309691},
+          { "name":"Ubiquitination of NEMO by TRAF6", "size":1.5848932},
+          { "name":"p-S177,S181-IKKB:IKKA:pUb-NEMO phosphorylates IkB-alpha:NF-kB", "size":1.5157166},
+          { "name":"Activation of TAK1 complex bound to pUb-TRAF6", "size":1.6952182},
+          { "name":"Phosphorylation of IKK-beta by TAK1", "size":1.5157166},
+          { "name":"Phosphorylation of PKC-theta", "size":1.4309691},
+          { "name":"DAG recruits PKC-theta to plasma membrane", "size":1.319508},
+          { "name":"Phosphorylation of CARMA1 by PKC-theta", "size":1.5157166},
+          { "name":"Autophosphorylation of PKC-theta", "size":1.4309691},
+          { "name":"Interaction of BCL10:MALT1 with CARMA1 to form CBM complex", "size":1.5157166},
+          { "name":"Released NF-kB complex is transported to the nucleus", "size":1.319508},
+          { "name":"Oligomerization of BCL10 and MALT1", "size":1.5157166},
+          { "name":"RasGRP interacts with DAG and Ca2+", "size":1.4309691}
+          ]
+        },
+        {
+         "name":"Role of LAT2/NTAL/LAB on calcium mobilization",
+         "children": [
+          { "name":"Recruitment of GAB2 to PM and FCERI by binding to GRB2", "size":1.6437519},
+          { "name":"Phoshorylation of GAB2 by SYK/FYN", "size":1.6952182},
+          { "name":"PI3K associates with phosphorylated GAB2", "size":1.7411011},
+          { "name":"Phosphorylation of PIP2 to PIP3 by PI3K", "size":1.319508},
+          { "name":"Translocation of PDK1 to Plasma membrane", "size":1.319508},
+          { "name":"Phosphorylation of NTAL by p-SYK/Lyn", "size":1.319508},
+          { "name":"Recruitment of GRB2:SOS to p-10Y-NTAL", "size":1.5157166},
+          {
+           "name":"PIP3 activates AKT signaling",
+           "children": [
+            { "name":"PI3K phosphorylates PIP2 to PIP3", "size":1.319508},
+            { "name":"PIP3 recruits AKT to the membrane", "size":1.319508},
+            { "name":"PIP3 recruits PDPK1 to the membrane", "size":1.319508},
+            { "name":"TORC2 (mTOR) phosphorylates AKT at S473", "size":1.4309691},
+            { "name":"AKT binds PDPK1", "size":1.5157166},
+            { "name":"PDPK1 phosphorylates AKT at T308", "size":1.5518456},
+            { "name":"AKT translocates to the nucleus", "size":1.1486983},
+            { "name":"PTEN mRNA translation negatively regulated by microRNAs", "size":1.1486983},
+            { "name":"MIR26A microRNAs bind PTEN mRNA", "size":0.0},
+            { "name":"PDPK1 binds PIP2", "size":1.319508},
+            {
+             "name":"Negative regulation of the PI3K/AKT network",
+             "children": [
+              { "name":"THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation", "size":1.4309691},
+              { "name":"PTEN dephosphorylates PIP3", "size":1.319508},
+              { "name":"PHLPP dephosphorylates S473 in AKT", "size":1.319508}
+              ]
+            },
+            {
+             "name":"AKT phosphorylates targets in the cytosol",
+             "children": [
+              { "name":"AKT phosphorylates GSK3", "size":1.319508},
+              { "name":"AKT phosphorylates caspase-9", "size":1.319508},
+              { "name":"AKT phosphorylates MDM2", "size":1.319508},
+              { "name":"AKT phosphorylates p21Cip1 and p27Kip1", "size":1.319508},
+              { "name":"AKT phosphorylates IKKalpha", "size":1.319508},
+              { "name":"AKT phosphorylates AKT1S1 (PRAS40)", "size":1.319508},
+              { "name":"AKT phosphorylates TSC2, inhibiting it", "size":1.319508},
+              { "name":"AKT phosphorylates BAD", "size":1.319508}
+              ]
+            },
+            {
+             "name":"AKT phosphorylates targets in the nucleus",
+             "children": [
+              { "name":"AKT phosphorylates CREB1", "size":1.319508},
+              { "name":"AKT can phosphorylate RSK", "size":1.319508},
+              { "name":"AKT can phosphorylate forkhead box transcription factors", "size":1.319508},
+              { "name":"AKT can phosphorylate NR4A1 (NUR77)", "size":1.319508}
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"FCERI mediated Ca+2 mobilization",
+         "children": [
+          { "name":"Phosphorylation of TEC kinases by p-SYK", "size":1.8556007},
+          { "name":"Autophosphorylation of BTK/ITK", "size":1.8556007},
+          { "name":"Hydrolysis of PIP2 by PLCG", "size":1.319508},
+          { "name":"Phosphorylation of PLC-gamma", "size":1.8556007},
+          { "name":"Recruitment of TEC kinases to p-SLP-76", "size":1.8205643},
+          { "name":"Calcium binds calmodulin", "size":1.319508},
+          { "name":"Calcineurin binds and dephosphorylates NFAT", "size":1.7826024},
+          { "name":"Activation of Calcineurin", "size":1.6952182},
+          { "name":"IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol", "size":1.1486983},
+          { "name":"Translocation of CaN:CaM:NFAT to nucleus", "size":1.7411011},
+          { "name":"IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel", "size":1.245731}
+          ]
+        },
+        {
+         "name":"FCERI mediated MAPK activation",
+         "children": [
+          { "name":"Formation of Activated Protein 1 (AP-1) complex. cFOS/c-JUN heterodimer. ", "size":1.319508},
+          { "name":"Autophosphorylation of PAK", "size":1.903654},
+          { "name":"Recruitment of PAK to the membrane by binding active RAC1", "size":1.8556007},
+          { "name":"Activation of RAC1 by VAV", "size":1.888175},
+          { "name":"Activated JNKs phosphorylate c-JUN", "size":1.319508},
+          { "name":"Recruitment of PLC-gamma to SLP-76 and p-5Y-LAT", "size":1.6952182},
+          { "name":"Phosphorylation of SHC by SYK kinase", "size":1.319508},
+          { "name":"Recruitment of GADS:SLP-76 to p-5Y-LAT", "size":1.6437519},
+          { "name":"Recruitment of GRB2:SOS to p-5Y-LAT", "size":1.5157166},
+          { "name":"c-FOS activation by phospho ERK1/2", "size":1.319508},
+          { "name":"Activated human JNKs migrate to nucleoplasm", "size":1.1486983},
+          { "name":"Autophosphorylation and activation of MEKK1", "size":1.319508},
+          { "name":"Recruitment of VAV to p-SLP-76", "size":1.7411011},
+          { "name":"Phosphorylation of human JNKs by activated MKK4/MKK7", "size":1.319508},
+          { "name":"Phosphorylation of MEK4 by MEKK1", "size":1.319508},
+          { "name":"Phosphorylation and activation of VAV", "size":1.8205643},
+          { "name":"Phosphorylation of MEK7 by MEKK1", "size":1.319508},
+          { "name":"Interaction of GRB2:SOS complex with p-SHC1", "size":1.4309691},
+          { "name":"Phosphorylation of SLP-76 by p-SYK", "size":1.7411011},
+          { "name":"SOS mediated nucleotide exchange of RAS (SHC)", "size":1.4309691},
+          {
+           "name":"RAF/MAP kinase cascade",
+           "children": [
+            {
+             "name":"ERK activation",
+             "children": [
+              {
+               "name":"ERK1 activation",
+               "children": [
+                { "name":"Nuclear translocation of phospho-ERK-1 dimer", "size":1.1486983},
+                { "name":"Dimerisation of phospho-ERK-1", "size":1.1486983},
+                { "name":"MEK1 phosphorylates ERK-1", "size":1.4309691},
+                { "name":"Dissociation of phospho-ERK-1:MEK1", "size":1.319508},
+                { "name":"Inactivation of MEK1 by p34cdc2", "size":1.319508},
+                { "name":"MEK1 binds ERK-1", "size":1.319508}
+                ]
+              },
+              {
+               "name":"ERK2 activation",
+               "children": [
+                { "name":"MEK2 phosphorylates ERK-2", "size":1.4309691},
+                { "name":"MEK2 binds ERK-2", "size":1.319508},
+                { "name":"Dissociation of phospho-ERK-2:MEK2", "size":1.319508},
+                { "name":"Dimerisation of phospho-ERK-2", "size":1.1486983},
+                { "name":"Nuclear translocation of phospho-ERK-2 dimer", "size":1.1486983}
+                ]
+              }
+              ]
+            },
+            {
+             "name":"RAF activation",
+             "children": [
+              { "name":"Stabilisation of RAF by further phosphorylation", "size":1.5848932},
+              { "name":"Stabilisation of RAS:RAF by 14-3-3", "size":1.5157166},
+              { "name":"Phosphorylated human RAF1 binds to RAS:GTP complex", "size":1.4309691},
+              { "name":"Transient dissociation of 14-3-3 upon Ras binding", "size":1.5157166},
+              { "name":"p-RAF binds 14-3-3 beta/alpha", "size":1.319508}
+              ]
+            },
+            {
+             "name":"MEK activation",
+             "children": [
+              { "name":"Activated RAF1 complex binds MEK", "size":1.5848932},
+              {
+               "name":"RAF phosphorylates MEK",
+               "children": [
+                { "name":"RAF1 phosphorylates MEK2", "size":1.6437519},
+                { "name":"RAF1 phosphorylates MEK1", "size":1.6437519}
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        }
+        ]
+      },
+      {
+       "name":"Complement cascade",
+       "children": [
+        {
+         "name":"Activation of C3 and C5",
+         "children": [
+          { "name":"Cleavage of C3 by C3 convertases", "size":1.3797296},
+          { "name":"Formation of classic pathway C5 convertase", "size":1.4309691},
+          { "name":"Activation of C5", "size":1.3797296}
+          ]
+        },
+        {
+         "name":"Initial triggering of complement",
+         "children": [
+          { "name":"Conversion of C2 into C2a and C2b", "size":1.245731},
+          { "name":"C4b binds to cell surface", "size":0.0},
+          { "name":"Conversion of C4 into C4a and C4b", "size":1.0},
+          { "name":"Formation of Classical C3 convertase (C4b:C2a complex)", "size":1.1486983},
+          {
+           "name":"Alternative complement activation",
+           "children": [
+            { "name":"Properdin stabilizes C3b:Bb bound to cell surfaces", "size":1.4309691},
+            { "name":"Factor D cleaves C3b-bound Factor B", "size":1.4757732},
+            { "name":"Formation of alternative pathway C5 convertase", "size":1.6153942},
+            { "name":"C3(H2O):Factor Bb cleaves C3 to C3b and C3a", "size":1.3797296},
+            { "name":"C3b binds to cell surface", "size":1.319508},
+            { "name":"Factor B binds to surface-associated C3b", "size":1.4309691},
+            { "name":"Spontaneous hydrolysis of C3 thioester", "size":1.3797296},
+            { "name":"Factor B binds to C3(H2O)", "size":1.4309691},
+            { "name":"Factor D cleaves C3(H2O)-bound Factor B", "size":1.4757732}
+            ]
+          },
+          {
+           "name":"Creation of C4 and C2 activators",
+           "children": [
+            {
+             "name":"Classical antibody-mediated complement activation",
+             "children": [
+              { "name":"Activation of C1R", "size":1.7187719},
+              { "name":"Activation of C1S", "size":1.7623403}
+              ]
+            },
+            {
+             "name":"Lectin pathway of complement activation",
+             "children": [
+              { "name":"MBL binds to repetitive carbohydrate structures on the surfaces of viruses, bacteria, fungi, and protozoa", "size":1.5157166},
+              { "name":"Activation of MASPs", "size":0.0},
+              {
+               "name":"Ficolins bind to repetitive carbohydrate structures on the target cell surface",
+               "children": [
+                { "name":"Ficolin-2 binds to molecular patterns on the target cell surface ", "size":1.5848932},
+                { "name":"Ficolin-3 binds to molecular patterns on the target cell surface ", "size":1.5848932},
+                { "name":"Ficolin-1 binds to molecular patterns on the target cell surface ", "size":1.5848932}
+                ]
+              }
+              ]
+            }
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Regulation of Complement cascade",
+         "children": [
+          { "name":"Factor I inactivates Factor H-boundC3b", "size":1.6437519},
+          { "name":"Complement factor I binds to membrane-associated Factor H:C3b", "size":1.5848932},
+          { "name":"CR1 binds C3bBb/C4bC2a", "size":1.0},
+          { "name":"iC3b proteolysis", "size":1.5518456},
+          { "name":"MCP binds C3b, C4b", "size":1.3797296},
+          { "name":"Displacement of C2a/Bb by CR1", "size":1.4309691},
+          { "name":"Factor H binds to C3bBb", "size":1.5157166},
+          { "name":"Factor H displaces Bb", "size":1.5157166},
+          { "name":"Complement factor I complex formation", "size":1.319508},
+          { "name":"Complement factor I binds to extracellular Factor H:C3b", "size":1.5848932},
+          { "name":"Factor I inactivates plasma Factor H-bound C3b", "size":1.6437519},
+          { "name":"CD59 inhibits MAC formation", "size":1.7826024},
+          { "name":"Formation of soluble VTN:C5b-C9 ", "size":1.7826024},
+          { "name":"C4b binding protein displaces C2a", "size":1.4309691},
+          { "name":"C4b binding protein binds Protein S", "size":1.4309691},
+          { "name":"Factor H binds to membrane-associated C3b", "size":1.4309691},
+          { "name":"Factor H binds host cell surface markers", "size":1.4309691},
+          { "name":"Vitronectin(VTN) binds to C5b:C6:C7 ", "size":1.5848932},
+          { "name":"Factor H binds to C3b", "size":1.4309691},
+          { "name":"Hydrolysis of internal thioester in C4b", "size":1.0},
+          { "name":"C3 convertases spontaneously dissociate", "size":1.4757732},
+          { "name":"Complement factor I inactivates C4BP-bound C4b", "size":1.5518456},
+          { "name":"C4b binding protein binds C4bC2a", "size":1.4309691},
+          { "name":"C4b-binding protein binds C4b", "size":1.319508},
+          { "name":"Complement factor I binds C4BP", "size":1.5157166},
+          { "name":"DAF accelerates C3bBb/C4bC2a dissociation", "size":1.4309691},
+          { "name":"CD55 (DAF) binds C3bBb, C4bC2a", "size":1.0},
+          { "name":"Factor I inactivates MCP/CR1-bound C4b/C3b", "size":1.3797296},
+          { "name":"Complement factor I binds to MCP, CR1:C4b, C3b", "size":1.319508}
+          ]
+        },
+        {
+         "name":"Terminal pathway of complement",
+         "children": [
+          { "name":"Creation of the Membrane Attack Complex (MAC)", "size":1.7411011},
+          { "name":"Formation of C5b:C6 complex", "size":1.4309691},
+          { "name":"Formation of C5b:C6:C7 complex", "size":1.5157166},
+          { "name":"C7 allows complex to insert into membrane under attack", "size":1.5157166},
+          { "name":"Formation of C5b:C6:C7:C8 complex", "size":1.6952182}
+          ]
+        }
+        ]
+      }
+      ]
+    }
+    ]
+  }

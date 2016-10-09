@@ -1,0 +1,21 @@
+[
+{"name":"RAF/MAP kinase cascade.MEK activation.Activated RAF1 complex binds MEK","size":1017,"imports":[]},
+{"name":"RAF/MAP kinase cascade.MEK activation.RAF phosphorylates MEK.RAF1 phosphorylates MEK1","size":1105,"imports":["RAF/MAP kinase cascade.MEK activation.Activated RAF1 complex binds MEK","RAF/MAP kinase cascade.ERK activation.ERK1 activation.MEK1 binds ERK-1"]},
+{"name":"RAF/MAP kinase cascade.MEK activation.RAF phosphorylates MEK.RAF1 phosphorylates MEK2","size":1105,"imports":["RAF/MAP kinase cascade.MEK activation.Activated RAF1 complex binds MEK","RAF/MAP kinase cascade.ERK activation.ERK2 activation.MEK2 binds ERK-2"]},
+{"name":"RAF/MAP kinase cascade.RAF activation.Phosphorylated human RAF1 binds to RAS:GTP complex","size":819,"imports":[]},
+{"name":"RAF/MAP kinase cascade.RAF activation.Stabilisation of RAS:RAF by 14-3-3","size":923,"imports":["RAF/MAP kinase cascade.RAF activation.Stabilisation of RAF by further phosphorylation"]},
+{"name":"RAF/MAP kinase cascade.RAF activation.Stabilisation of RAF by further phosphorylation","size":1017,"imports":["RAF/MAP kinase cascade.MEK activation.Activated RAF1 complex binds MEK"]},
+{"name":"RAF/MAP kinase cascade.RAF activation.Transient dissociation of 14-3-3 upon Ras binding","size":923,"imports":["RAF/MAP kinase cascade.RAF activation.Stabilisation of RAS:RAF by 14-3-3","RAF/MAP kinase cascade.RAF activation.p-RAF binds 14-3-3 beta/alpha"]},
+{"name":"RAF/MAP kinase cascade.RAF activation.p-RAF binds 14-3-3 beta/alpha","size":699,"imports":["RAF/MAP kinase cascade.RAF activation.Transient dissociation of 14-3-3 upon Ras binding"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK2 activation.MEK2 binds ERK-2","size":699,"imports":["RAF/MAP kinase cascade.ERK activation.ERK2 activation.MEK2 phosphorylates ERK-2"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK2 activation.Nuclear translocation of phospho-ERK-2 dimer","size":550,"imports":[]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK2 activation.Dimerisation of phospho-ERK-2","size":550,"imports":["RAF/MAP kinase cascade.ERK activation.ERK2 activation.Nuclear translocation of phospho-ERK-2 dimer"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK2 activation.Dissociation of phospho-ERK-2:MEK2","size":699,"imports":["RAF/MAP kinase cascade.ERK activation.ERK2 activation.MEK2 binds ERK-2","RAF/MAP kinase cascade.ERK activation.ERK2 activation.Dimerisation of phospho-ERK-2"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK2 activation.MEK2 phosphorylates ERK-2","size":819,"imports":["RAF/MAP kinase cascade.ERK activation.ERK2 activation.Dissociation of phospho-ERK-2:MEK2"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK1 activation.Inactivation of MEK1 by p34cdc2","size":699,"imports":[]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK1 activation.Nuclear translocation of phospho-ERK-1 dimer","size":550,"imports":[]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK1 activation.Dimerisation of phospho-ERK-1","size":550,"imports":["RAF/MAP kinase cascade.ERK activation.ERK1 activation.Nuclear translocation of phospho-ERK-1 dimer"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK1 activation.Dissociation of phospho-ERK-1:MEK1","size":699,"imports":["RAF/MAP kinase cascade.ERK activation.ERK1 activation.Dimerisation of phospho-ERK-1","RAF/MAP kinase cascade.ERK activation.ERK1 activation.MEK1 binds ERK-1"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK1 activation.MEK1 phosphorylates ERK-1","size":819,"imports":["RAF/MAP kinase cascade.ERK activation.ERK1 activation.Dissociation of phospho-ERK-1:MEK1"]},
+{"name":"RAF/MAP kinase cascade.ERK activation.ERK1 activation.MEK1 binds ERK-1","size":699,"imports":["RAF/MAP kinase cascade.ERK activation.ERK1 activation.MEK1 phosphorylates ERK-1"]}
+]

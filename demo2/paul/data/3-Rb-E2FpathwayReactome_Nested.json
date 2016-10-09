@@ -1,0 +1,121 @@
+  {
+   "name":"flare",
+   "children": [
+    {
+     "name":"Mitotic G1-G1/S phases",
+     "children": [
+      {
+       "name":"G1/S Transition",
+       "children": [
+        {
+         "name":"Cyclin E associated events during G1/S transition ",
+         "children": [
+          { "name":"Translocation of Cyclin E:Cdk2 complex to the nucleus", "size":1.319508},
+          { "name":"Formation of Cyclin E:Cdk2 complexes", "size":1.319508},
+          { "name":"Phosphorylation of Cyclin E:Cdk2 complexes by Wee-1", "size":1.4309691},
+          { "name":"Phosphorylation of Cyclin E2:Cdk2 complexes by Myt1", "size":1.4309691},
+          { "name":"Phosphorylation of Cyclin E1:Cdk2 complexes by Myt1", "size":1.4309691},
+          { "name":"Dephosphorylation of Cyclin E:Cdk2 complexes by Cdc25A", "size":1.4309691},
+          { "name":"CAK-mediated phosphorylation of Cyclin E:Cdk2", "size":1.4309691},
+          { "name":"Association of Rb with Cyclin E:Cdk2 complexes", "size":1.4309691},
+          { "name":"Inactivation of Cyclin E:Cdk2 complexes by p27/p21", "size":1.4309691},
+          { "name":"Translocation of p21 to the nucleus", "size":1.1486983},
+          { "name":"Translocation of p27 to the nucleoplasm", "size":1.1486983},
+          {
+           "name":"Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes",
+           "children": [
+            { "name":"Cyclin E:Cdk2-mediated phosphorylation of Rb", "size":1.5157166}
+            ]
+          },
+          {
+           "name":"SCF(Skp2)-mediated degradation of p27/p21",
+           "children": [
+            { "name":"Ubiquitination of phospho-p27/p21", "size":1.6952182},
+            { "name":"Degradation of ubiquitinated p27/p21 by the 26S proteasome", "size":1.6702777},
+            { "name":"Association of Cks1 with SCF(Skp2) complex", "size":1.5157166},
+            { "name":"Binding of phospho-p27/p21:Cdk2:Cyclin E/A to the SCF(Skp2):Cks1 complex", "size":1.6437519},
+            { "name":"Cyclin E/A:Cdk2-mediated phosphorylation of p27/p21", "size":1.4309691}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"Activation of the pre-replicative complex",
+         "children": [
+          { "name":"CDK and DDK associate with the Mcm10:pre-replicative complex", "size":2.0476725},
+          { "name":"Cdt1 is displaced from the pre-replicative complex.", "size":2.0},
+          { "name":"DNA polymerase alpha:primase binds at the origin", "size":1.6437519},
+          { "name":"DNA Replication Factor A (RPA) associates with the pre-replicative complex at the origin", "size":2.1505601},
+          { "name":"Cdc45 associates with the pre-replicative complex at the origin", "size":2.069935},
+          { "name":"Mcm2-7 is phosphorylated by DDK", "size":1.7187719},
+          { "name":"DNA polymerase epsilon binds at the origin", "size":1.319508},
+          { "name":"Mcm10 associates with the pre-replicative complex, stabilizing Mcm2-7", "size":2.0}
+          ]
+        },
+        {
+         "name":"E2F mediated regulation of DNA replication",
+         "children": [
+          {
+           "name":"Inhibition of replication initiation of damaged DNA by RB1/E2F1",
+           "children": [
+            { "name":"PP2A mediated localization of RB1 protein in chromatin", "size":1.1486983},
+            { "name":"Replication initiation regulation by Rb1/E2F1", "size":1.4309691},
+            { "name":"Detection of damage during initiation of DNA synthesis in S-phase", "size":1.5157166}
+            ]
+          },
+          {
+           "name":"E2F-enabled inhibition of pre-replication complex formation",
+           "children": [
+            { "name":"Association of Cyclin B/Cdk1 with replicative origin inhibits pre-RC formation", "size":1.7826024},
+            { "name":"Activation of Cyclin B/Cdk1 by Cdc25a (string) protein", "size":1.245731}
+            ]
+          }
+          ]
+        },
+        {
+         "name":"G1/S-Specific Transcription",
+         "children": [
+          ]
+        }
+        ]
+      },
+      {
+       "name":"G0 and Early G1",
+       "children": [
+        { "name":"p130 (RBL2) in complex with E2F4/5:DP1/2 binds to cyclin E/A:CDK2", "size":1.5157166},
+        { "name":"Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1", "size":1.319508},
+        { "name":"p107 (RBL1) binds CyclinE/A:CDK2", "size":1.319508},
+        { "name":"p107 (RBL1) in complex with E2F4:DP1/2 binds to cyclin E/A:CDK2", "size":1.5157166},
+        { "name":"p130 (RBL2) binds Cyclin E/A:CDK2", "size":1.319508},
+        { "name":"Phosphorylation of LIN52 component of MuvB by DYRK1A", "size":1.6437519},
+        { "name":"p130 (RBL2) associates with MuvB to form DREAM complex", "size":1.7411011},
+        { "name":"Transcription of E2F targets under negative control by DREAM complex", "size":1.4309691},
+        { "name":"Recruitment of HDAC1 by p107 (RBL1)", "size":1.5157166},
+        { "name":"Recruitment of HDAC1 by p130 (RBL2)", "size":1.5157166}
+        ]
+      },
+      {
+       "name":"G1 Phase",
+       "children": [
+        {
+         "name":"Cyclin D associated events in G1",
+         "children": [
+          { "name":"Ubiquitination of p130 (RBL2) by SCF (Skp2)", "size":1.6437519},
+          { "name":"Translocation of Cyclin D:Cdk4/6 complexes from the cytoplasm to the nucleus", "size":1.4309691},
+          { "name":"Phosphorylated p130 (RBL2) binds SCF(Skp2):Cks1 complex", "size":1.5848932},
+          { "name":"Formation of Cyclin D:Cdk4/6 complexes ", "size":1.5157166},
+          { "name":"Dephosphorylation of p107 by PP2A", "size":1.319508},
+          { "name":"Cyclin D:Cdk4/6 mediated phosphorylation of p130 (RBL2) and dissociation of phosphorylated p130 (RBL2) from DP1:E2F4/5 complex", "size":1.5157166},
+          { "name":"Dephosphorylation of p107 by PP2A", "size":1.319508},
+          { "name":"Phosphorylation of Cyclin D:Cdk4/6 complexes", "size":1.5157166},
+          { "name":"Cyclin D:Cdk4/6 mediated phosphorylation of Rb and dissociation of phospho-Rb from the E2F1/2/3:DP-1 complexes", "size":1.5157166},
+          { "name":"Association of INK4A with Cdk4/6", "size":1.319508},
+          { "name":"Cyclin D:CDK4/6 mediated phosphorylation of p107 (RBL1) and dissociation of phosphorylated p107 (p-RBL1) from DP1:E2F4 complex", "size":1.5157166}
+          ]
+        }
+        ]
+      }
+      ]
+    }
+    ]
+  }

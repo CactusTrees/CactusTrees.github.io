@@ -67,71 +67,76 @@ var diameter = 1000,
   
 
 function drawColorLegend() {
-      var xx = width-100;
-      var y1 = 5;
-      var y2 = 18;
-      var rr = 5;
+  var xx = width-100;
+  var y1 = 5;
+  var y2 = 18;
+  var rr = 5;
 
-      svg.append("line")
-        .attr("class", "nodeLegend")
-        .attr("x1", xx-20)
-        .attr("y1", y1)
-        .attr("x2", xx)
-        .attr("y2", y1)
-        .style("stroke", "#880088");
+  svg.append("line")
+    .attr("class", "nodeLegend")
+    .attr("x1", xx-20)
+    .attr("y1", y1)
+    .attr("x2", xx)
+    .attr("y2", y1)
+    .style("stroke", "#880088");
 
-      svg.append("circle")
-        .attr("class", "nodeLegend")
-        .attr("cx", xx)
-        .attr("cy", y1)
-        .attr("r", rr)
-        .style("fill", "#880088");
+  svg.append("circle")
+    .attr("class", "nodeLegend")
+    .attr("cx", xx)
+    .attr("cy", y1)
+    .attr("r", rr)
+    .style("fill", "#880088");
+  
+  svg.append("text")
+    .attr("class", "nodeLegend")
+    .attr("x", xx+10)
+    .attr("y", y1+1)
+    .text("Source node")
+    .attr("dy", ".21em")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", "10px")
+    .style("text-anchor", "left")
+    .style("fill", "#880088");
+
+  svg.append("line")
+    .attr("class", "nodeLegend")
+    .attr("x1", xx-20)
+    .attr("y1", y2)
+    .attr("x2", xx)
+    .attr("y2", y2)
+    .style("stroke", "#008800");
       
-      svg.append("text")
-        .attr("class", "nodeLegend")
-        .attr("x", xx+10)
-        .attr("y", y1+1)
-        .text("Source node")
-        .attr("dy", ".21em")
-        .attr("font-family", "sans-serif")
-        .attr("font-size", "10px")
-        .style("text-anchor", "left")
-        .style("fill", "#880088");
-   
-      svg.append("line")
-        .attr("class", "nodeLegend")
-        .attr("x1", xx-20)
-        .attr("y1", y2)
-        .attr("x2", xx)
-        .attr("y2", y2)
-        .style("stroke", "#008800");
-          
-      svg.append("circle")
-        .attr("class", "nodeLegend")
-        .attr("cx", width-100)
-        .attr("cy", y2)
-        .attr("r", rr)
-        .style("fill", "#008800");  
+  svg.append("circle")
+    .attr("class", "nodeLegend")
+    .attr("cx", width-100)
+    .attr("cy", y2)
+    .attr("r", rr)
+    .style("fill", "#008800");  
 
-      svg.append("text")
-        .attr("class", "nodeLegend")
-        .attr("x", xx+10)
-        .attr("y", y2+1)
-        .text("Target node")
-        .attr("dy", ".21em")
-        .attr("font-family", "sans-serif")
-        .attr("font-size", "10px")
-        .style("text-anchor", "left")
-        .style("fill", "#008800");  
+  svg.append("text")
+    .attr("class", "nodeLegend")
+    .attr("x", xx+10)
+    .attr("y", y2+1)
+    .text("Target node")
+    .attr("dy", ".21em")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", "10px")
+    .style("text-anchor", "left")
+    .style("fill", "#008800");  
 }
 
 function removeColorLegend() {
- svg.selectAll(".nodeLegend").remove();
+  svg.selectAll(".nodeLegend").remove();
 }
 
 function color(d) {
-  var minSat = 120;
-  var maxSat = 230;
+  if (d.name=="animate")
+    return "#ccc";
+  if (d.name=="animate.interpolate")
+    return "#aaa";
+
+  var minSat = 50;
+  var maxSat = 245;
   var step = (maxSat-minSat)/maxDepth;
   var sat = Math.round(maxSat-d.depth*step);
   if (listSelected1[d.name] || listSelected2[d.name])
@@ -166,18 +171,18 @@ function colorFaded(d) {
 
 
 function getBranchingAngle1(radius3, numChild) {
-  if (numChild<=2){
-    return Math.pow(radius3,2);
+  if (numChild<=4){
+    return Math.pow(radius3,0.8);
   }  
   else
-    return Math.pow(radius3,0.85);
- } 
+    return Math.pow(radius3,0.6);
+} 
 
 function getRadius(d) {
- // console.log("scaleCircle = "+scaleCircle +" scaleRadius="+scaleRadius);
-return d._children ? scaleCircle*Math.pow(d.childCount1, scaleRadius)// collapsed package
+  // console.log("scaleCircle = "+scaleCircle +" scaleRadius="+scaleRadius);
+  return d._children ? scaleCircle*Math.pow(d.childCount1, scaleRadius)// collapsed package
       : d.children ? scaleCircle*Math.pow(d.childCount1, scaleRadius) // expanded package
-      : scaleCircle*0.8;
+      : scaleCircle*1;
      // : 1; // leaf node
 }
 

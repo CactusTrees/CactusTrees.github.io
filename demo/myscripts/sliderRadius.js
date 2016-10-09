@@ -5,12 +5,12 @@ var sliderRadius;
 var handleRadius;
 var xScaleRadius;
 
-var ySliderRadius = 70;
+var ySliderRadius = 16;
 
 function setupSliderRadius(svg) {
   xScaleRadius = d3.scale.linear()
     .domain([0.1, 1])
-    .range([xSlider, 180])
+    .range([320, 480])
     .clamp(true);
 
   brushRadius = d3.svg.brush()
@@ -22,7 +22,7 @@ function setupSliderRadius(svg) {
     .attr("class", "x axis")
     .attr("transform", "translate(0," + ySliderRadius + ")")
     .attr("font-family", "sans-serif")
-    .attr("font-size", "10px")
+    .attr("font-size", "12px")
     .call(d3.svg.axis()
       .scale(xScaleRadius)
       .ticks(4)
@@ -36,12 +36,12 @@ function setupSliderRadius(svg) {
 
   svg.append("text")
     .attr("class", "sliderText")
-    .attr("x", xSlider-5)
+    .attr("x", 315)
     .attr("y", ySliderRadius)
     .attr("dy", ".21em")
     .attr("font-family", "sans-serif")
-    .attr("font-size", "10px")
-    .text("Scale Children")
+    .attr("font-size", "13px")
+    .text("Ratio")
     .style("text-anchor","end"); 
 
   sliderRadius = svg.append("g")

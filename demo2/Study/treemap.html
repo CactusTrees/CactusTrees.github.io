@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../main.css"></link>
+
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="../myscripts/input.js"></script>
+<script src="../myscripts/util.js"></script>
+<script>
+
+var width = 670,
+    height = 670;
+
+
+var treemap = d3.layout.treemap()
+    .padding(17)
+    .size([width, height])
+    .value(function(d) { return d.size; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height+200)
+  .append("g")
+    .attr("transform", "translate(-.5,-.5)");
+var cluster = d3.layout.cluster()
+    .size([360, 360])
+    .sort(null)
+    .value(function(d) { return 1; });
+
+var maxDepth=0, numLeaf=0;
+var link = svg.selectAll(".link");
+var bundle = d3.layout.bundle();
+var links;
+var treeOnly = false;
+
+//var file = "../data/0_RAF_Dot.json";
+
+//var file = "../data/1_Activation of Pro-caspase 8 Pathway.json";
+//var file = "../data/2_ERBB2 Pathway.json";
+//var file = "../data/3_Signaling to GPCR Pathway.json";
+//var file = "../data/flare package.json";
+//var file = "../data/carnivoraWithRelationships.json";
+//var file = "../data/mammalsWithRelationships.json";
+
+//var file = "../data/1_RAF-Cascade Pathway.json";
+//var file = "../data/54_DAG Pathway.json";
+
+//var file = "../data/3_NGF Pathway.json";
+var file = "../data/3_NGF_Dot.json";
+
+
+d3.json(file, function(error, classes) {
+
+  nodes = cluster.nodes(packageHierarchy(classes));
+  nodes.splice(0, 1);  // remove the first element (which is created by the reading process)
+  nodes.forEach(function(d) { 
+        if (d.depth>maxDepth)
+            maxDepth = d.depth;
+        if (!d.children)
+            numLeaf++;
+        
+    });
+
+  var paading = width/(maxDepth*8);
+  treemap.padding(paading);
+
+
+  var cell = svg.data([nodes[0]]).selectAll("g")
+      .data(treemap.nodes)
+    .enter().append("g")
+      .attr("class", "cell")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  cell.append("rect")
+      .attr("width", function(d) { return d.dx; })
+      .attr("height", function(d) { return d.dy; })
+      .style("stroke-width", 0.75)
+      .style("stroke", function(d){
+        if (listSelected1[d.name] || listSelected2[d.name] || listSelected3[d.name] || listSelected4[d.name])
+           return"#000"
+        else 
+          return"#fff"
+      }) 
+     
+      //.style("fill", function(d) { return d.children ? color(d.name) : null; })
+      .style("fill", function(d) { 
+         return color(d); 
+    });
+
+
+// Higlight the selected nodes for teaser image ****************
+  svg.selectAll(".leaff").data(nodes).enter()
+    .append("rect")
+      .attr("class", "leaff")
+      .attr("x", function(d) { return d.x; })
+      .attr("y", function(d) { return d.y; })
+      .attr("width", function(d) { return d.dx; })
+      .attr("height", function(d) { return d.dy; })
+      .style("stroke", function(d){
+        if (listSelected1[d.name] || listSelected2[d.name] || listSelected3[d.name] || listSelected4[d.name])
+           return"#000"
+      })  
+      .style("fill-opacity", function(d) { 
+        if (listSelected1[d.name] || listSelected2[d.name] || listSelected3[d.name] || listSelected4[d.name])
+         return 1; 
+        else
+          return 0;
+      })
+      .style("fill", function(d) { 
+        if (listSelected1[d.name] || listSelected2[d.name] || listSelected3[d.name] || listSelected4[d.name])
+         return color(d); 
+        else
+          return "#f00";
+      });
+       
+  /*    
+  cell.append("text")
+      .attr("x", function(d) { return d.dx / 2; })
+      .attr("y", function(d) { return d.dy / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "middle")
+      .text(function(d) { return d.children ? null : d.key; });
+   */
+
+  var nodes2 = [];
+  for (var i=0; i<nodes.length;i++){
+    var nod = nodes[i];
+    nod.x = nod.x ;
+    nod.y = nod.y;
+    nodes2.push(nod);
+  }
+
+  links = packageImports(nodes2);
+  var _line = d3.svg.line()
+    .interpolate("bundle")
+    .tension(0.98)
+    .x(function(d) { return d.x +d.dx / 2})
+    .y(function(d) { return d.y +d.dy / 2})
+
+  if (!treeOnly){
+    link = link
+        .data(bundle(links))
+      .enter().append("path")
+        .attr("class", "link")
+        .attr("d", function(d) {
+          return _line(d)
+        })
+  }    
+  
+
+   svg.append("text")
+        .attr("class", "nodeLegend")
+        .attr("x", width/2)
+        .attr("y", height+25)
+        .text("Treemap")
+        .attr("dy", ".21em")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", "30px")
+        .style("text-anchor", "middle")
+        .style("fill", "#000")
+        .style("font-weight", "bold");
+
+/*
+      var filename2 = file.split("/");
+      svg.append("text")
+        .attr("class", "nodeLegend")
+        .attr("x", width/2)
+        .attr("y", height+50)
+        .text("Data: "+filename2[filename2.length-1])
+        .attr("dy", ".21em")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", "18px")
+        .style("text-anchor", "middle")
+        .style("fill", "#000");
+    */
+});
+
+</script>

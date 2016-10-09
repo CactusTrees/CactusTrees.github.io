@@ -4,12 +4,12 @@ var brush;
 var slider;
 var handle;
 var xScale;
-var xSlider = 70;
-var ySlider = 25;
+var xSlider = 80;
+var ySlider = 16;
 
 function setupSliderScale(svg) {
   xScale = d3.scale.linear()
-    .domain([0.001, height/Math.pow(nodes.length,0.8)])
+    .domain([0.001, 2*height/Math.pow(nodes.length,0.8)])
     .range([xSlider, 180])
     .clamp(true);
 
@@ -22,7 +22,7 @@ function setupSliderScale(svg) {
     .attr("class", "x axis")
     .attr("transform", "translate(0," + ySlider + ")")
     .attr("font-family", "sans-serif")
-    .attr("font-size", "10px")
+    .attr("font-size", "12px")
     .call(d3.svg.axis()
       .scale(xScale)
       .ticks(4)
@@ -40,7 +40,7 @@ function setupSliderScale(svg) {
     .attr("y", ySlider)
     .attr("dy", ".21em")
     .attr("font-family", "sans-serif")
-    .attr("font-size", "10px")
+    .attr("font-size", "13px")
     .text("Scale Tree")
     .style("text-anchor","end"); 
 

@@ -33,10 +33,18 @@ function packageImports(nodes) {
 
   // For each import, construct a link from the source to target node.
   nodes.forEach(function(d) {
-    if (d.imports) 
-      d.imports.forEach(function(i) {
-        imports.push({source: map[d.name], target: map[i]});
-    });
+    if (d.imports) {
+      //if (d.name.indexOf("flare.animate")>-1) {
+        var list = "";
+        d.imports.forEach(function(i) {
+            //if (map[i].name.indexOf("flare.animate")>-1) {
+            //  list+="\""+map[i].name+"\""+",";
+              imports.push({source: map[d.name], target: map[i]});
+            //}  
+        });
+      //  console.log("{\"name\":\""+d.name+"\",\"size\":500,\"imports\":["+list.substring(0,list.length-1)+"]},");
+      //}  
+    }  
   });
   return imports;
 }
