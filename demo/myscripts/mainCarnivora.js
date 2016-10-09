@@ -364,7 +364,6 @@ function drawNodeAndLink() {
             //  $('body').css('background-image', 'url(' + result.image + ')');
           } else {
             d.image = "http://www.fnordware.com/superpng/pngtest8rgba.png";  
-            update() ;
           }
       });
     }  
@@ -417,14 +416,8 @@ function updateNodeAndLink() {
 }
 
 
-window.setInterval(function(){
-  //console.log("Calling update"+countT);
-//  update();
-}, 1000);
-
 var countT=0;
-function update() {
-         
+function update() {        
     d3.selectAll(".node1").each(function(d) {
         d.x = (d.treeX ); //*event.alpha;
         d.y = d.treeY ; })
@@ -460,8 +453,6 @@ function update() {
           if (d.key=="0" || d.key=="1" || d.depth<1 || !document.getElementById("checkbox12").checked)
             return color(d);
          else{
-           // console.log(d.key+" count="+countT);
-           // countT++;
             return "url(#catpattern"+i+")"; 
          }
    });
