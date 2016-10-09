@@ -10,7 +10,7 @@ var lineBundle = d3.svg.line()
       .y(function(d) { return d.y; });
 
 var width = 1500,
-    height = 1050,
+    height = 850,
     root;
 
 /*var force = d3.layout.force()
@@ -197,9 +197,8 @@ function setupTree() {
   newNodes = treeLayout(root).map(function(d,i) {
     if (d.depth==0){
        d.treeX = 610; 
-       //d.treeY = height-getRadius(root);
-        d.treeY = height-getRadius(root)*2;
-         d.alpha = -Math.PI/12; 
+       d.treeY = height-getRadius(root);
+       d.alpha = -Math.PI/12; 
     }
     if (d.children){
       var totalRadius = 0;

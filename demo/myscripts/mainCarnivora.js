@@ -10,7 +10,7 @@ var lineBundle = d3.svg.line()
       .y(function(d) { return d.y; });
 
 var width = 1500,
-    height = 750,
+    height = 720,
     root;
 
 /*var force = d3.layout.force()
@@ -40,7 +40,7 @@ var diagonal;
 var treeLayout = d3.layout.tree().size([ width, height ]);
 var scaleCircle = 1;  // The scale to update node size, defined by sliderScale.js
 var scaleRate=1;
-var scaleRadius = 0.78;//0.43;  // The scale betweeb parent and children nodes, defined by sliderRadius.js
+var scaleRadius = 0.4;//0.43;  // The scale betweeb parent and children nodes, defined by sliderRadius.js
  
 var maxDepth=1;
 var setIntervalFunction;
@@ -59,12 +59,12 @@ var nodeDFSCount = 0;  // this global variable is used to set the DFS ids for no
 //var file = "data/pathway.json";
 //var file = "data/AllDesease_Dot.json";
 
-//var file = "data/carnivoraWithRelationships.json";
+var file = "data/carnivoraWithRelationships.json";
 //var file = "data/mammalsWithRelationships.json";
 
 //var file = "data/1_RAF-Cascade Pathway.json";
 //var file = "data/54_DAG Pathway.json";
-var file = "data/3_NGF Pathway teaser.json";
+//var file = "data/3_NGF Pathway teaser.json";
 //var file = "data/3_NGF_Dot.json";
 
 //var file = "data/HIV Infection_Dot.json";
@@ -196,7 +196,7 @@ function setupTree() {
   var minY = height*100;   // used to compute the best scale for the input tree
   newNodes = treeLayout(root).map(function(d,i) {
     if (d.depth==0){
-       d.treeX = 610; 
+       d.treeX = 500; 
        d.treeY = height-getRadius(root);
        //d.treeY = height-getRadius(root)*2;
         d.alpha = -Math.PI/2; 
@@ -344,7 +344,7 @@ function drawNodeAndLink() {
     })
    ;// .on("dbclick", clickNode); 
 
-/*
+
  nodeEnter.append("image")
     .attr("class", "nodeImage3")
     .attr("x", function(d) { return d.x; })
@@ -364,10 +364,11 @@ function drawNodeAndLink() {
             //  $('body').css('background-image', 'url(' + result.image + ')');
           } else {
             d.image = "http://www.fnordware.com/superpng/pngtest8rgba.png";  
+            update() ;
           }
       });
     }  
-  });*/
+  });
   
 
   nodeEnter.append("text")
@@ -416,7 +417,14 @@ function updateNodeAndLink() {
 }
 
 
+window.setInterval(function(){
+  //console.log("Calling update"+countT);
+//  update();
+}, 1000);
+
+var countT=0;
 function update() {
+         
     d3.selectAll(".node1").each(function(d) {
         d.x = (d.treeX ); //*event.alpha;
         d.y = d.treeY ; })
@@ -432,8 +440,7 @@ function update() {
       else
          return getRadius(d);
       })
-      .style("fill", function(d,i) { 
-        /*
+      .style("fill", function(d,i) {   
         var defs = svg.append("defs").attr("id", "imgdefs")
         var catpattern = defs.append("pattern")
                                 .attr("id", "catpattern"+i)
@@ -442,7 +449,7 @@ function update() {
                                 .attr("x", "0")
                                 .attr("y", "0")
 
-        catpattern.append("image")
+             catpattern.append("image")
              .attr("class", "nodeImage2")
              .attr("x", -getRadius(d)*0.25)
              .attr("y", -getRadius(d)*0.25)
@@ -450,13 +457,13 @@ function update() {
              .attr("width", getRadius(d)*2.5)
              .attr("xlink:href", d.image )
 
-         //    console.log(d.image);
-         if (d.key=="0" || d.key=="1" || d.depth<1 || !document.getElementById("checkbox12").checked)
+          if (d.key=="0" || d.key=="1" || d.depth<1 || !document.getElementById("checkbox12").checked)
             return color(d);
          else{
-             return "url(#catpattern"+i+")"; 
-         }*/
-         return color(d);
+           // console.log(d.key+" count="+countT);
+           // countT++;
+            return "url(#catpattern"+i+")"; 
+         }
    });
 
       /*

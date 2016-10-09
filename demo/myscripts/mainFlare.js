@@ -53,7 +53,7 @@ var nodeDFSCount = 0;  // this global variable is used to set the DFS ids for no
 //var file = "data/1_Activation of Pro-caspase 8 Pathway.json";
 //var file = "data/2_ERBB2 Pathway orginal.json";
 //var file = "data/3_Signaling to GPCR Pathway.json";
-//var file = "data/flare package.json";
+var file = "data/flare package.json";
 
 //var file = "data/MultiplePathway_PaificVis2016.json";
 //var file = "data/pathway.json";
@@ -64,7 +64,7 @@ var nodeDFSCount = 0;  // this global variable is used to set the DFS ids for no
 
 //var file = "data/1_RAF-Cascade Pathway.json";
 //var file = "data/54_DAG Pathway.json";
-var file = "data/3_NGF Pathway teaser.json";
+//var file = "data/3_NGF Pathway teaser.json";
 //var file = "data/3_NGF_Dot.json";
 
 //var file = "data/HIV Infection_Dot.json";
@@ -203,7 +203,7 @@ function setupTree() {
     }
     if (d.children){
       var totalRadius = 0;
-      var totalAngle = Math.PI*1.2;
+      var totalAngle = Math.PI*1.25;
      // if (d.depth==0){
      //   totalAngle = Math.PI*2;
      // }  

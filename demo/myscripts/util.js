@@ -172,10 +172,10 @@ function colorFaded(d) {
 
 function getBranchingAngle1(radius3, numChild) {
   if (numChild<=4){
-    return Math.pow(radius3,0.8);
+    return Math.pow(radius3,2);
   }  
   else
-    return Math.pow(radius3,0.6);
+    return Math.pow(radius3,0.75);
 } 
 
 function getRadius(d) {
